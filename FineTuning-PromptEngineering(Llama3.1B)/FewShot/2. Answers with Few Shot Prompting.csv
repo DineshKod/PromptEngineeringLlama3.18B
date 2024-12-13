@@ -1,0 +1,1625 @@
+,index,answer,question,Prompt,Output,Answer,Correct
+0,0,18,"Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?  Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.
+She makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.
+#### 18  Return yes, if you understood how that is the answer.","Please answer this question: Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?  Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.
+She makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.
+#### 18  Return yes, if you understood how that is the answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","#\#\#work: First, we find out how many eggs Janet has left after eating and baking. She has 16 eggs per day, eats 3 for breakfast, and bakes with 4. So, 16 - 3 - 4 = 9 eggs left. Then, we find out how much she makes by selling these 9 eggs at $2 each. So, 9 * 2 = $18. Therefore, Janet makes $18 every day at the farmers' market.
+#\#\# Answer: 18",,
+1,1,3,"A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take? It takes 2/2=<<2/2=1>>1 bolt of white fiber
+So the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric
+#### 3 Return yes, if you understood how that is the answer.","Please answer this question: A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take? It takes 2/2=<<2/2=1>>1 bolt of white fiber
+So the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric
+#### 3 Return yes, if you understood how that is the answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","#\#\#work: A robe takes 2 bolts of blue fiber and half that much white fiber. To find the total number of bolts, we first need to find the number of bolts of white fiber. Since it's half that of blue fiber, we have:
+
+2 bolts of blue fiber / 2 = 1 bolt of white fiber
+
+Now, we add the bolts of blue fiber and the bolts of white fiber to find the total number of bolts:
+
+2 bolts of blue fiber + 1 bolt of white fiber = 3 bolts of fiber
+
+#\#\# Answer: 3",,
+2,2,70000,"Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make? The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000
+He increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000
+So the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000 Return yes, if you understood how that is the answer.
+So he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000
+#### 70000","Please answer this question: Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make? The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000
+He increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000
+So the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000 Return yes, if you understood how that is the answer.
+So he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000
+#### 70000 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","#\#\#work: Josh buys a house for $80,000 and puts in $50,000 in repairs. This increased the value of the house by 150%. The cost of the house and repairs is $130,000. The increased value of the house is $120,000. To find the profit, subtract the cost from the increased value: $200,000 - $130,000 = $70,000.
+#\#\# Answer: 70000",,
+3,3,12,"Quadrilateral A has side lengths 6, 9, 9, and 12. Quadrilateral B is a scaled copy of Quadrilateral A, with its shortest side of length 2. What is the perimeter of Quadrilateral B?","Please answer this question: Quadrilateral A has side lengths 6, 9, 9, and 12. Quadrilateral B is a scaled copy of Quadrilateral A, with its shortest side of length 2. What is the perimeter of Quadrilateral B? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we need to find the scale factor between the two quadrilaterals and then apply that scale factor to the perimeter of Quadrilateral A.
+
+First, let's find the scale factor. We know that the shortest side of Quadrilateral B is 2, and the shortest side of Quadrilateral A is 6. Therefore, the scale factor is:
+
+Scale factor = (shortest side of Quadrilateral B) / (shortest side of Quadrilateral A) = 2 / 6 = 1/3
+
+Now, we need to apply this scale factor to the side lengths of Quadrilateral A to find the side lengths of Quadrilateral B. We do this by dividing each side length of Quadrilateral A by the scale factor:
+
+Side lengths of Quadrilateral B = (side lengths of Quadrilateral A) / scale factor
+Side lengths of Quadrilateral B = (6, 9, 9, 12) / (1/3)
+
+Side lengths of Quadrilateral B = (6 * 3, 9 * 3, 9 * 3, 12 * 3) = (18, 27, 27, 36)
+
+Finally, we need to find the perimeter of Quadrilateral B by adding up the side lengths:
+
+Perimeter of Quadrilateral B = 18 + 27 + 27 + 36 = 108
+
+So the perimeter of Quadrilateral B is 108.
+
+#\#\#work: To find the",108,FALSE
+4,4,30,A blueprint for a building includes a rectangular room that measures 3 inches long and 5.5 inches wide. The scale for the blueprint says that 1 inch on the blueprint is equivalent to 10 feet in the actual building. What are the dimensions of this rectangular room in the actual building? What is the length of the building. Do not include units (feet) in your answer.,Please answer this question: A blueprint for a building includes a rectangular room that measures 3 inches long and 5.5 inches wide. The scale for the blueprint says that 1 inch on the blueprint is equivalent to 10 feet in the actual building. What are the dimensions of this rectangular room in the actual building? What is the length of the building. Do not include units (feet) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the dimensions of the rectangular room in the actual building, we need to multiply the dimensions on the blueprint by the scale factor. The scale factor is 10 feet per inch.
+
+\#\#\#work: To find the length of the room in the actual building, we multiply the length on the blueprint (3 inches) by the scale factor (10 feet per inch):
+3 inches * 10 feet/inch = 30 feet
+
+To find the width of the room in the actual building, we multiply the width on the blueprint (5.5 inches) by the scale factor (10 feet per inch):
+5.5 inches * 10 feet/inch = 55 feet
+
+The length of the building is the same as the length of the room, which is 30 feet.
+
+\#\#\# Answer: The dimensions of the rectangular room in the actual building are 30 feet long and 55 feet wide, and the length of the building is 30 feet.",30,TRUE
+5,5,2400,"A local park is in the shape of a square. A map of the local park is made with the scale 1 inch to 200 feet. If the park is shown as a square on the map, each side of which is one foot long, how long is each side of the square park? Do not include units (feet) in your answer.","Please answer this question: A local park is in the shape of a square. A map of the local park is made with the scale 1 inch to 200 feet. If the park is shown as a square on the map, each side of which is one foot long, how long is each side of the square park? Do not include units (feet) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the actual length of each side of the square park, we can use the scale given in the problem. The scale is 1 inch to 200 feet. Since the map shows each side of the square park as one foot long, we can set up a proportion to find the actual length in feet.
+
+Let x be the actual length of each side of the square park in feet. We can set up the proportion as follows:
+
+1 inch / 200 feet = x inches / 1 foot
+
+Now, we need to convert inches to feet using the scale. Since there are 12 inches in a foot, we can write:
+
+1 inch / (200/12) feet = x inches / 1 foot
+
+Now, we can cross-multiply and solve for x:
+
+1 * 1 = x * (200/12)
+
+x = 12/200
+
+x = 0.06
+
+So, each side of the square park is 0.06 miles long.",0.06,FALSE
+6,6,"21,600",A map of a rectangular park has a length of 4 inches and a width of 6 inches. It uses a scale of 1 inch for every 30 miles. What is the actual area of the park? Do not include units (square miles) in your answer.,Please answer this question: A map of a rectangular park has a length of 4 inches and a width of 6 inches. It uses a scale of 1 inch for every 30 miles. What is the actual area of the park? Do not include units (square miles) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the actual area of the park, we first need to find the area of the map. The area of a rectangle is found by multiplying the length by the width. So, the area of the map is:
+
+\#\#\#work: 4 inches * 6 inches = 24 square inches
+
+Now, we need to find the actual dimensions of the park using the scale. The scale tells us that 1 inch on the map represents 30 miles in reality. So, to find the actual length, we multiply the length of the map by the scale:
+
+\#\#\#work: 4 inches * 30 miles/inch = 120 miles
+
+Similarly, to find the actual width, we multiply the width of the map by the scale:
+
+\#\#\#work: 6 inches * 30 miles/inch = 180 miles
+
+Now that we have the actual dimensions of the park, we can find the actual area by multiplying the actual length by the actual width:
+
+\#\#\# Answer: 120 miles * 180 miles = 21600 square miles",21600,TRUE
+7,7,0.8,A store sells rope by the meter. The equation p=0.8L represents the price p (in dollars) of a piece of nylon rope that is L meters long. How much does the nylon rope cost per meter? Do not include units ($) in your answer.,Please answer this question: A store sells rope by the meter. The equation p=0.8L represents the price p (in dollars) of a piece of nylon rope that is L meters long. How much does the nylon rope cost per meter? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the cost per meter of the nylon rope, we need to determine the value of the constant of proportionality in the given equation. The equation is p = 0.8L, where p is the price in dollars and L is the length in meters. 
+
+The constant of proportionality, or the slope, in this equation is 0.8. This means that for every meter increase in length, the price increases by 0.8 dollars. 
+
+To find the cost per meter, we simply take the constant of proportionality and write it without the units:
+
+\#\#\#work: Given the equation p = 0.8L, the constant of proportionality is 0.8. Since we want to find the cost per meter, we can write the answer as 0.8 without units.
+
+\#\#\# Answer: 0.8",0.8,TRUE
+8,8,20,"To transmit information on the internet, large files are broken into packets of smaller sizes. Each packet has 1,500 bytes of information. An equation relating packets to bytes of information is given by b = 1,500p where p represents the number of packets and b represents the number of bytes of information. How many packets would be needed to transmit 30,000 bytes of information?","Please answer this question: To transmit information on the internet, large files are broken into packets of smaller sizes. Each packet has 1,500 bytes of information. An equation relating packets to bytes of information is given by b = 1,500p where p represents the number of packets and b represents the number of bytes of information. How many packets would be needed to transmit 30,000 bytes of information? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the number of packets needed to transmit 30,000 bytes of information, we can use the given equation b = 1,500p. We need to solve for p, so we can rearrange the equation:
+
+b = 1,500p
+p = b / 1,500
+
+Now, plug in the value of b:
+
+p = 30,000 / 1,500
+p = 20
+
+So, 20 packets are needed to transmit 30,000 bytes of information.
+
+\#\#\#work: Given the equation b = 1,500p, we need to find the number of packets (p) needed to transmit 30,000 bytes of information. Rearrange the equation to solve for p: p = b / 1,500. Plug in the value of b: p = 30,000 / 1,500. Calculate the result: p = 20.
+
+\#\#\# Answer: 20",20,TRUE
+9,9,90,"Han wants to buy a $30 ticket to a game, but the pre-order tickets are sold out. He knows there will be more tickets sold the day of the game, with a markup of 200%. How much should Han expect to pay for the ticket if he buys it the day of the game? Do not include units ($) in your answer.","Please answer this question: Han wants to buy a $30 ticket to a game, but the pre-order tickets are sold out. He knows there will be more tickets sold the day of the game, with a markup of 200%. How much should Han expect to pay for the ticket if he buys it the day of the game? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the price of the ticket with a 200% markup, we first need to calculate the amount of the markup. 
+
+Markup = Original Price * Markup Percentage
+Markup = $30 * 2 (since 200% is equivalent to 2)
+
+Markup = $60
+
+Now, we add the markup to the original price to find the price of the ticket the day of the game.
+
+Price = Original Price + Markup
+Price = $30 + $60
+
+Price = $90
+
+So, Han should expect to pay 90 for the ticket if he buys it the day of the game.
+
+\#\#\#work: To find the price of the ticket with a 200% markup, we first need to calculate the amount of the markup. Markup = Original Price * Markup Percentage. Markup = $30 * 2 (since 200% is equivalent to 2). Markup = $60. Now, we add the markup to the original price to find the price of the ticket the day of the game. Price = Original Price + Markup. Price = $30 + $60. Price = $90. So, Han should expect to pay 90 for the ticket if he buys it the day of the game. \#\#\# Answer: 90",90,TRUE
+10,10,8,Noah was assigned to make 64 cookies for the bake sale. He made 125% of that number. 90% of the cookies he made were sold. How many of Noah's cookies were left after the bake sale? Do not include units (cookies) in your answer.,Please answer this question: Noah was assigned to make 64 cookies for the bake sale. He made 125% of that number. 90% of the cookies he made were sold. How many of Noah's cookies were left after the bake sale? Do not include units (cookies) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"First, let's find out how many cookies Noah made. To do this, we multiply the number of cookies he was assigned (64) by 125%:
+
+\#\#\#work: 64 * 1.25 = 80
+
+So, Noah made 80 cookies.
+
+Next, let's find out how many cookies were sold. To do this, we multiply the number of cookies Noah made (80) by 90%:
+
+\#\#\#work: 80 * 0.9 = 72
+
+So, 72 cookies were sold.
+
+Finally, to find out how many cookies were left after the bake sale, we subtract the number of cookies sold (72) from the total number of cookies Noah made (80):
+
+\#\#\#work: 80 - 72 = 8
+
+So, 8 cookies were left after the bake sale.
+
+\#\#\# Answer: 8",8,TRUE
+11,11,0.125,"In Canadian coins, 16 quarters is equal in value to 2 toonies. number of quarters number of toonies 1 A 16 2 20 B 24 C What is the value of A?","Please answer this question: In Canadian coins, 16 quarters is equal in value to 2 toonies. number of quarters number of toonies 1 A 16 2 20 B 24 C What is the value of A? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, let's first understand the value of a quarter and a toonie in Canadian currency. A quarter is worth $0.25, and a toonie is worth $2.00. 
+
+Now let's look at option A:
+
+Option A: 16 quarters and 2 toonies
+
+The value of 16 quarters is $0.25 * 16 = $4.00.
+
+The value of 2 toonies is $2.00 * 2 = $4.00.
+
+Since both values are equal, option A is correct.
+
+\#\#\#work: A quarter is worth $0.25, and a toonie is worth $2.00. We need to find the value of 16 quarters and 2 toonies. The value of 16 quarters is $0.25 * 16 = $4.00. The value of 2 toonies is $2.00 * 2 = $4.00. Since both values are equal, option A is correct.
+
+\#\#\# Answer: A",A,FALSE
+12,12,0.45,At the supermarket you can fill your own honey bear container. A customer buys 12 oz of honey for $5.40. How much does honey cost per ounce? Do not include units ($) in your answer.,Please answer this question: At the supermarket you can fill your own honey bear container. A customer buys 12 oz of honey for $5.40. How much does honey cost per ounce? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the cost per ounce of honey, we need to divide the total cost by the number of ounces.
+
+\#\#\#work: $5.40 \div 12 \text{ oz}$
+
+\#\#\# Answer: 0.45",0.45,TRUE
+13,13,1.82,Lin's bike travels 100 meters when her wheels rotate 55 times. What is the circumference of her wheels? Round your answer to the nearest hundredth place. Do not include units (meters) in your answer.,Please answer this question: Lin's bike travels 100 meters when her wheels rotate 55 times. What is the circumference of her wheels? Round your answer to the nearest hundredth place. Do not include units (meters) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the circumference of Lin's wheels, we can use the formula:
+
+Circumference = Distance / Number of rotations
+
+In this case, the distance is 100 meters and the number of rotations is 55.
+
+Circumference = 100 / 55
+
+Circumference ≈ 1.8181818181818182
+
+Rounded to the nearest hundredth, the circumference is:
+
+\#\#\#work: Circumference = 100 / 55 ≈ 1.8181818181818182
+
+\#\#\# Answer: 1.82",1.82,TRUE
+14,14,75,Priya drew a circle whose circumference is 25 cm. Clare drew a circle whose diameter is 3 times the diameter of Priya's circle. What is the circumference of Clare's circle? Use 3.14 for pi. Round to the nearest whole number. Do not include units (cm) in your answer.,Please answer this question: Priya drew a circle whose circumference is 25 cm. Clare drew a circle whose diameter is 3 times the diameter of Priya's circle. What is the circumference of Clare's circle? Use 3.14 for pi. Round to the nearest whole number. Do not include units (cm) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the circumference of Clare's circle, we first need to find the diameter of Priya's circle. Since the circumference is given as 25 cm, we can use the formula:
+
+Circumference = 2 * pi * radius
+
+Solving for the radius, we get:
+
+25 = 2 * pi * radius
+radius = 25 / (2 * pi)
+radius ≈ 25 / 6.28
+radius ≈ 3.98
+
+Now that we have the radius of Priya's circle, we can find the diameter:
+
+Diameter = 2 * radius
+Diameter ≈ 2 * 3.98
+Diameter ≈ 7.96
+
+Clare's circle has a diameter that is 3 times the diameter of Priya's circle:
+
+Clare's diameter = 3 * Priya's diameter
+Clare's diameter ≈ 3 * 7.96
+Clare's diameter ≈ 23.88
+
+Now we can find the circumference of Clare's circle using the formula:
+
+Circumference = pi * diameter
+
+Circumference ≈ 3.14 * 23.88
+Circumference ≈ 74.73
+
+Rounding to the nearest whole number, the circumference of Clare's circle is 75.
+
+\#\#\#work: To find the circumference of Clare's circle, we first found the radius of Priya's circle using the formula Circumference = 2 * pi * radius",75,TRUE
+15,15,316,The face of a clock has a circumference of 63 in. What is the area of the face of the clock? Round your answer to the nearest whole number. Do not include units (in2) in your answer.,Please answer this question: The face of a clock has a circumference of 63 in. What is the area of the face of the clock? Round your answer to the nearest whole number. Do not include units (in2) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the area of the face of the clock, we can use the formula for the area of a circle, which is A = πr², where A is the area and r is the radius of the circle. 
+
+First, we need to find the radius of the clock face. We can do this by dividing the circumference by 2π, since the formula for the circumference of a circle is C = 2πr.
+
+\#\#\#work: r = \frac{63}{2\pi} \approx 10.08
+
+Now that we have the radius, we can find the area of the clock face:
+
+\#\#\#work: A = \pi(10.08)^2 \approx 314.16
+
+Rounding to the nearest whole number, the area of the face of the clock is:
+
+\#\#\# Answer: 314",314,FALSE
+16,16,12.5,A cyclist rode 3.75 miles in 0.3 hours. How fast was she going in miles per hour? Do not include units (miles per hour) in your answer.,Please answer this question: A cyclist rode 3.75 miles in 0.3 hours. How fast was she going in miles per hour? Do not include units (miles per hour) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the speed in miles per hour, we need to divide the distance traveled by the time it took. 
+
+\#\#\#work: \( \frac{3.75 \text{ miles}}{0.3 \text{ hours}} = 12.5 \text{ miles per hour} \)
+
+\#\#\# Answer: 12.5",12.5,TRUE
+17,17,0.99,"Tyler orders a meal that costs $15. If the tax rate is 6.6%, how much will the sales tax be on Tyler's meal? Do not include units ($) in your answer.","Please answer this question: Tyler orders a meal that costs $15. If the tax rate is 6.6%, how much will the sales tax be on Tyler's meal? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the sales tax on Tyler's meal, we need to multiply the cost of the meal by the tax rate:
+
+Sales tax = $15 * 6.6%
+
+To convert the percentage to a decimal, divide by 100:
+
+6.6% = 6.6 / 100 = 0.066
+
+Now, multiply the cost of the meal by the decimal:
+
+Sales tax = $15 * 0.066 = $0.99
+
+So, the sales tax on Tyler's meal will be $0.99.
+
+\#\#\#work: Sales tax = $15 * 6.6% = $15 * 0.066 = $0.99
+
+\#\#\# Answer: 0.99",0.99,TRUE
+18,18,300,"A bakery used 25% more butter this month than last month. If the bakery used 240 kilograms of butter last month, how much did it use this month? Round your answer to the nearest whole number. Do not include units (kilograms) in your answer.","Please answer this question: A bakery used 25% more butter this month than last month. If the bakery used 240 kilograms of butter last month, how much did it use this month? Round your answer to the nearest whole number. Do not include units (kilograms) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we can set up an equation to represent the relationship between the amount of butter used last month and this month. Let x be the amount of butter used this month. We know that the bakery used 25% more butter this month than last month, so we can write the equation:
+
+x = 240 + (0.25 * 240)
+
+Now, we can solve for x:
+
+x = 240 + (60)
+x = 300
+
+So, the bakery used 300 kilograms of butter this month.
+
+\#\#\#work: x = 240 + (0.25 * 240) = 240 + 60 = 300
+\#\#\# Answer: 300",300,TRUE
+19,19,1.4,"Last week, the price of oranges at the farmer's market was $1.75 per pound. This week, the price has decreased by 20%. What is the price of oranges this week? Round your answer to the nearest hundredths (second) decimal place. Do not include units ($ per pound) in your answer.","Please answer this question: Last week, the price of oranges at the farmer's market was $1.75 per pound. This week, the price has decreased by 20%. What is the price of oranges this week? Round your answer to the nearest hundredths (second) decimal place. Do not include units ($ per pound) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the price of oranges this week, we first need to calculate the decrease in price. A 20% decrease means the price has been reduced by 20/100 = 0.2 times the original price.
+
+So, the decrease in price is 0.2 * $1.75 = $0.35.
+
+Now, we subtract the decrease from the original price to find the new price:
+
+$1.75 - $0.35 = $1.40.
+
+Rounded to the nearest hundredth, the price of oranges this week is $1.40.
+
+\#\#\#work: To find the price of oranges this week, we first need to calculate the decrease in price. A 20% decrease means the price has been reduced by 20/100 = 0.2 times the original price. So, the decrease in price is 0.2 * $1.75 = $0.35. Now, we subtract the decrease from the original price to find the new price: $1.75 - $0.35 = $1.40. Rounded to the nearest hundredth, the price of oranges this week is $1.40.
+
+\#\#\# Answer: 1.40",1.4,TRUE
+20,20,138,"A pair of designer sneakers was purchased for $120. Since they were purchased, their price has increased by 15%. What is the new price? Do not include units ($) in your answer.","Please answer this question: A pair of designer sneakers was purchased for $120. Since they were purchased, their price has increased by 15%. What is the new price? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the new price, we first need to calculate the increase in price. 
+
+15% of $120 is calculated as follows:
+(15/100) * 120 = 18
+
+Now, add the increase to the original price:
+120 + 18 = 138
+
+The new price of the designer sneakers is $138.",138,TRUE
+21,21,307.5,"Elena's aunt bought her a $150 savings bond when she was born. When Elena is 20 years old, the bond will have earned 105% in interest. How much will the bond be worth when Elena is 20 years old? Do not include units ($) in your answer.","Please answer this question: Elena's aunt bought her a $150 savings bond when she was born. When Elena is 20 years old, the bond will have earned 105% in interest. How much will the bond be worth when Elena is 20 years old? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the value of the bond when Elena is 20 years old, we need to calculate the interest earned on the bond and then add it to the original value of the bond.
+
+\#\#\#work: The bond has earned 105% interest. To find the interest earned, we multiply the original value of the bond ($150) by the interest rate (105%).
+
+Interest earned = 150 * 1.05 = 157.5
+
+\#\#\# Answer: 157.5",157.5,FALSE
+22,22,14.69,22% of 65 is 14.3. What is 22.6% of 65? Round your answer to the nearest hundredths (second) decimal place.,Please answer this question: 22% of 65 is 14.3. What is 22.6% of 65? Round your answer to the nearest hundredths (second) decimal place. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find 22.6% of 65, we can first convert the percentage to a decimal by dividing by 100: 22.6 / 100 = 0.226. Then, we multiply this decimal by 65: 0.226 * 65 = 14.59. Rounding to the nearest hundredth, the answer is 14.59.
+
+\#\#\#work: 22.6% of 65 is calculated by converting the percentage to a decimal (22.6/100 = 0.226) and then multiplying this decimal by 65 (0.226 * 65 = 14.59). Rounding to the nearest hundredth, the answer is 14.59.
+
+\#\#\# Answer: 14.59",14.59,FALSE
+23,23,728,"A bakery used 30% more sugar this month than last month. If the bakery used 560 kilograms of sugar last month, how much did it use this month? Do not include units (kilograms) in your answer.","Please answer this question: A bakery used 30% more sugar this month than last month. If the bakery used 560 kilograms of sugar last month, how much did it use this month? Do not include units (kilograms) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how much sugar the bakery used this month, we first need to calculate the amount of sugar used last month, which is given as 560 kilograms.
+
+Now, we need to find 30% of the amount of sugar used last month:
+
+30% of 560 = 0.3 * 560 = 168
+
+Now, we need to add this 30% increase to the amount of sugar used last month:
+
+560 + 168 = 728
+
+So, the bakery used 728 kilograms of sugar this month.
+
+#\#\#work: 30% of 560 = 0.3 * 560 = 168. Then, 560 + 168 = 728. The bakery used 728 kilograms of sugar this month.
+#\#\# Answer: 728",728,TRUE
+24,24,0.95,Find each amount: 3.8% of 25,Please answer this question: Find each amount: 3.8% of 25 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find 3.8% of 25, we can use the following formula:
+
+(amount) = (percentage) x (total)
+
+First, convert the percentage to a decimal by dividing it by 100:
+
+3.8% = 3.8 / 100 = 0.038
+
+Now, multiply this decimal by the total amount:
+
+(amount) = 0.038 x 25 = 0.95
+
+So, 3.8% of 25 is 0.95.
+
+\#\#\#work: (amount) = (percentage) x (total) \n3.8% = 3.8 / 100 = 0.038 \n(amount) = 0.038 x 25 = 0.95
+
+\#\#\# Answer: 0.95",0.95,TRUE
+25,25,10.8,"On Monday, the high was 60 degrees Fahrenheit. On Tuesday, the high was 18% more. How much did the high increase from Monday to Tuesday? Do not include units (degrees Fahrenheit) in your answer.","Please answer this question: On Monday, the high was 60 degrees Fahrenheit. On Tuesday, the high was 18% more. How much did the high increase from Monday to Tuesday? Do not include units (degrees Fahrenheit) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the increase in temperature, we first need to find the temperature on Tuesday. Since the high on Tuesday was 18% more than the high on Monday, we can calculate it as follows:
+
+\#\#\#work: (60 * 18%) = (60 * 0.18) = 10.8
+
+\#\#\#work: 60 + 10.8 = 70.8
+
+So, the high on Tuesday was 70.8 degrees Fahrenheit.
+
+Now, to find the increase in temperature, we subtract the high on Monday from the high on Tuesday:
+
+\#\#\#work: 70.8 - 60 = 10.8
+
+The high increased by 10.8 degrees Fahrenheit from Monday to Tuesday.
+
+\#\#\# Answer: 10.8",10.8,TRUE
+26,26,9802.9,"A car dealership pays $8,350 for a car. They mark up the price by 17.4% to get the retail price. What is the retail price of the car at this dealership? Round your answer to the nearest hundredths place. Do not include units ($) in your answer.","Please answer this question: A car dealership pays $8,350 for a car. They mark up the price by 17.4% to get the retail price. What is the retail price of the car at this dealership? Round your answer to the nearest hundredths place. Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the retail price, we can use the formula for percentage increase:
+
+Retail Price = Initial Price + (Initial Price * Percentage Increase)
+
+First, we need to convert the percentage increase to a decimal:
+
+17.4% = 0.174
+
+Now, we can plug in the values:
+
+Retail Price = $8,350 + ($8,350 * 0.174)
+
+Retail Price = $8,350 + $1,455.70
+
+Retail Price = $9,805.70
+
+Rounded to the nearest hundredths place, the retail price is $9.81. 
+
+\#\#\#work: Retail Price = Initial Price + (Initial Price * Percentage Increase) = $8,350 + ($8,350 * 0.174) = $8,350 + $1,455.70 = $9,805.70. Rounded to the nearest hundredths place, the retail price is $9.81. 
+
+\#\#\# Answer: 980.81",980.81,FALSE
+27,27,7785,"A college student takes out a $7,500 loan from a bank. What will the balance of the loan be after one year (assuming the student has not made any payments yet): If the bank charges 3.8% interest each year? Do not include units ($) in your answer. Round your answer to the nearest hundredth place.","Please answer this question: A college student takes out a $7,500 loan from a bank. What will the balance of the loan be after one year (assuming the student has not made any payments yet): If the bank charges 3.8% interest each year? Do not include units ($) in your answer. Round your answer to the nearest hundredth place. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the balance of the loan after one year, we can use the formula for compound interest:
+
+A = P(1 + r/n)^(nt)
+
+In this case, P (the principal) is $7,500, r (the annual interest rate) is 3.8% or 0.038, n (the number of times the interest is compounded per year) is 1 (since it's not specified, we'll assume it's compounded annually), and t (the time in years) is 1.
+
+A = 7500(1 + 0.038/1)^(1*1)
+A = 7500(1 + 0.038)
+A = 7500(1.038)
+A = 7785
+
+So, the balance of the loan after one year will be $7,785.00.
+
+#\#\#work: A = P(1 + r/n)^(nt) = 7500(1 + 0.038/1)^(1*1) = 7500(1 + 0.038) = 7500(1.038) = 7785
+
+#\#\# Answer: 7785.00",7785,TRUE
+28,28,58.5,"A music store marks up the instruments it sells by 30%. If the store bought a guitar for $45, what will be its store price? Round your answer to the hundredth place. Do not include units ($) in your answer.","Please answer this question: A music store marks up the instruments it sells by 30%. If the store bought a guitar for $45, what will be its store price? Round your answer to the hundredth place. Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the store price, we first need to calculate the amount of the markup. The markup is 30% of the cost price, which is $45. 
+
+Markup = (30/100) * $45 = $13.5
+
+Now, we add the markup to the cost price to get the store price:
+
+Store Price = Cost Price + Markup = $45 + $13.5 = $58.5
+
+So, the store price of the guitar is $58.50.
+
+\#\#\#work: Markup = (30/100) * $45 = $13.5, Store Price = Cost Price + Markup = $45 + $13.5 = $58.5
+
+\#\#\# Answer: 58.50",58.5,TRUE
+29,29,"7,458","A watermelon weighs 8,475 grams. A scale measured the weight with an error of 12% under the actual weight. What was the measured weight? Do not include units (grams) in your answer.","Please answer this question: A watermelon weighs 8,475 grams. A scale measured the weight with an error of 12% under the actual weight. What was the measured weight? Do not include units (grams) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the measured weight, we first need to determine the actual weight of the watermelon. We know that the scale measured the weight with an error of 12% under the actual weight. This means that the measured weight is 100% - 12% = 88% of the actual weight.
+
+Let the actual weight be x. Then, we can write the equation:
+
+0.88x = 8745
+
+Now, we can solve for x:
+
+x = 8745 / 0.88
+x ≈ 9930.68
+
+Now that we have the actual weight, we can find the measured weight by multiplying the actual weight by 0.88:
+
+measured weight = 9930.68 * 0.88
+measured weight ≈ 8736.17
+
+So, the measured weight is approximately 8736.17 grams.
+
+\#\#\#work: To find the measured weight, we first determined the actual weight by dividing the given weight (8745) by 0.88. Then, we multiplied the actual weight by 0.88 to find the measured weight. 
+
+\#\#\# Answer: 8736.17",8736.17,FALSE
+30,30,331.5,"Noah's oven thermometer gives a reading that is 2% greater than the actual temperature. If the actual temperature is 325&ordm;F, what will the thermometer reading be? Round your answer to the tenths place. Do not include units (degrees) in your answer.","Please answer this question: Noah's oven thermometer gives a reading that is 2% greater than the actual temperature. If the actual temperature is 325&ordm;F, what will the thermometer reading be? Round your answer to the tenths place. Do not include units (degrees) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the thermometer reading, we need to calculate 2% of the actual temperature and then add it to the actual temperature.
+
+First, let's find 2% of 325°F:
+
+\#\#\#work: 2% of 325 = (2/100) * 325 = 0.02 * 325 = 6.5
+
+Now, let's add this value to the actual temperature:
+
+\#\#\#work: Thermometer reading = Actual temperature + 2% of actual temperature = 325 + 6.5 = 331.5
+
+So, the thermometer reading will be 331.5°F.
+
+\#\#\# Answer: 331.5",331.5,TRUE
+31,31,40,"A student estimated that it would take 3 hours to write a book report, but it actually took her 5 hours. What is the percent error for her estimate? Do not include the percent sign (%) in your answer.","Please answer this question: A student estimated that it would take 3 hours to write a book report, but it actually took her 5 hours. What is the percent error for her estimate? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percent error, we first need to find the difference between her estimate and the actual time taken. 
+
+\#\#\#work: Difference = |Estimated Time - Actual Time| = |3 hours - 5 hours| = 2 hours
+
+Next, we need to divide the difference by the actual time taken and multiply by 100 to get the percent error.
+
+\#\#\#work: Percent Error = (Difference / Actual Time) * 100 = (2 hours / 5 hours) * 100 = 0.4 * 100 = 40
+
+\#\#\# Answer: 40",40,TRUE
+32,32,0.19,"A radar gun measured the speed of a baseball at 103 miles per hour. If the baseball was actually going 102.8 miles per hour, what was the percent error in this measurement? Do not include the percent sign (%) in your answer. Round your answer to two decimal places after solving for the percent.","Please answer this question: A radar gun measured the speed of a baseball at 103 miles per hour. If the baseball was actually going 102.8 miles per hour, what was the percent error in this measurement? Do not include the percent sign (%) in your answer. Round your answer to two decimal places after solving for the percent. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percent error, we can use the formula:
+
+Percent Error = (|Actual - Measured| / Actual) * 100
+
+In this case, the actual speed is 102.8 miles per hour, and the measured speed is 103 miles per hour. Plugging these values into the formula, we get:
+
+Percent Error = (|102.8 - 103| / 102.8) * 100
+
+First, we find the absolute value of the difference between the actual and measured values:
+
+|102.8 - 103| = 0.2
+
+Now, we divide this value by the actual value:
+
+0.2 / 102.8 ≈ 0.0019423
+
+Finally, we multiply by 100 to find the percent error:
+
+0.0019423 * 100 ≈ 0.19423
+
+Rounding to two decimal places, we get:
+
+0.19423 ≈ 0.19
+
+So, the percent error in this measurement is 0.19.",0.19,TRUE
+33,33,255,"A submarine is searching for underwater features. It is accompanied by a small aircraft and an underwater robotic vehicle. At one time the aircraft is 200 m above the surface, the submarine is 55 m below the surface, and the underwater robotic vehicle is 227 m below the surface. What is the difference in height between the submarine and the aircraft? Do not include units (m) in your answer.","Please answer this question: A submarine is searching for underwater features. It is accompanied by a small aircraft and an underwater robotic vehicle. At one time the aircraft is 200 m above the surface, the submarine is 55 m below the surface, and the underwater robotic vehicle is 227 m below the surface. What is the difference in height between the submarine and the aircraft? Do not include units (m) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the difference in height between the submarine and the aircraft, we simply subtract the submarine's depth from the aircraft's altitude.
+
+\#\#\#work: 200 m (aircraft altitude) - 55 m (submarine depth) = 145 m
+
+\#\#\# Answer: 145",145,FALSE
+34,34,-2.55,Some boats were traveling up and down a river. A satellite recorded the movements of several boats. A motor boat traveled -3.4 miles per hour for 0.75 hours. How far did it go? Do not include units (miles) in your answer.,Please answer this question: Some boats were traveling up and down a river. A satellite recorded the movements of several boats. A motor boat traveled -3.4 miles per hour for 0.75 hours. How far did it go? Do not include units (miles) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the distance the motorboat traveled, we can use the formula:
+
+distance = speed × time
+
+In this case, the speed is -3.4 miles per hour and the time is 0.75 hours. Plugging these values into the formula, we get:
+
+distance = (-3.4) × (0.75)
+
+distance = -2.55
+
+So, the motorboat traveled 2.55 miles. The negative sign indicates that the boat traveled upstream, against the current.
+
+\#\#\#work: distance = (-3.4) × (0.75) = -2.55 \#\#\# Answer: 2.55",-2.55,TRUE
+35,35,-280,A submarine is only allowed to change its depth by rising toward the surface in 60-meter stages. It starts off at -340 meters. At what depth is it after 1 stage Do not include units (m) in your answer.,Please answer this question: A submarine is only allowed to change its depth by rising toward the surface in 60-meter stages. It starts off at -340 meters. At what depth is it after 1 stage Do not include units (m) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the depth after 1 stage, we simply need to add 60 meters to the starting depth of -340 meters.
+
+\#\#\#work: -340 + 60 = -280
+
+\#\#\# Answer: -280",-280,TRUE
+36,36,11,A coffee maker's directions say to use 2 tablespoons of ground coffee for every 6 ounces of water. How much coffee should you use for 33 ounces of water? Do not include units (tablespoons) in your answer.,Please answer this question: A coffee maker's directions say to use 2 tablespoons of ground coffee for every 6 ounces of water. How much coffee should you use for 33 ounces of water? Do not include units (tablespoons) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find out how much coffee to use for 33 ounces of water, we can set up a proportion:
+
+\[
+\frac{2 \text{ tablespoons}}{6 \text{ ounces}} = \frac{x \text{ tablespoons}}{33 \text{ ounces}}
+\]
+
+Now, we can solve for \(x\):
+
+\[
+x = \frac{2 \text{ tablespoons} \times 33 \text{ ounces}}{6 \text{ ounces}}
+\]
+
+\[
+x = \frac{66}{6} \text{ tablespoons}
+\]
+
+\[
+x = 11 \text{ tablespoons}
+\]
+
+So, you should use 11 tablespoons of ground coffee for 33 ounces of water.",11,TRUE
+37,37,12,"A bank charges a service fee of $7.50 per month for a checking account. A bank account has $85.00. If no money is deposited or withdrawn except the service charge, how many months until the account balance is negative? Do not include units (months) in your answer.","Please answer this question: A bank charges a service fee of $7.50 per month for a checking account. A bank account has $85.00. If no money is deposited or withdrawn except the service charge, how many months until the account balance is negative? Do not include units (months) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how many months until the account balance is negative, we need to divide the initial account balance by the monthly service fee.
+
+Initial account balance: $85.00
+Monthly service fee: $7.50
+
+\#\#\#work: $85 / $7.50 = 11.33
+
+Since we can't have a fraction of a month, we'll round up to the nearest whole number.
+
+\#\#\#work: 11.33 rounded up = 12
+
+\#\#\# Answer: 12",12,TRUE
+38,38,300,"A large aquarium of water is being filled with a hose. Due to a problem, the sensor does not start working until some time into the filling process. The sensor starts its recording at the time zero minutes. The sensor initially detects the tank has 225 liters of water in it. The hose fills the aquarium at a constant rate of 15 liters per minute. What will the sensor read at the time of 5 minutes? Do not include units (liters) in your answer.","Please answer this question: A large aquarium of water is being filled with a hose. Due to a problem, the sensor does not start working until some time into the filling process. The sensor starts its recording at the time zero minutes. The sensor initially detects the tank has 225 liters of water in it. The hose fills the aquarium at a constant rate of 15 liters per minute. What will the sensor read at the time of 5 minutes? Do not include units (liters) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out what the sensor will read at the time of 5 minutes, we need to calculate how much water is added to the aquarium during these 5 minutes.
+
+The hose fills the aquarium at a constant rate of 15 liters per minute. So in 5 minutes, the hose will add:
+
+15 liters/minute * 5 minutes = 75 liters
+
+The sensor initially detects the tank has 225 liters of water in it. So, at the time of 5 minutes, the sensor will read:
+
+225 liters + 75 liters = 300 liters
+
+To summarize:
+
+\#\#\#work: The hose fills the aquarium at a constant rate of 15 liters per minute. In 5 minutes, the hose will add 75 liters to the aquarium. The initial amount of water in the tank is 225 liters. So, at the time of 5 minutes, the sensor will read 300 liters.
+
+\#\#\# Answer: 300",300,TRUE
+39,39,24.15,A restaurant bill is $21. You leave a 15% tip. How much do you pay including the tip? Do not include units ($) in your answer.,Please answer this question: A restaurant bill is $21. You leave a 15% tip. How much do you pay including the tip? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the amount paid including the tip, first calculate the tip amount, and then add it to the original bill.
+
+\# Calculate the tip amount:
+Tip = 15% of $21 = 0.15 * 21 = 3.15
+
+\# Add the tip to the original bill:
+Total payment = Original bill + Tip = 21 + 3.15 = 24.15
+
+\#\#\#work: Tip = 15% of $21 = 0.15 * 21 = 3.15; Total payment = Original bill + Tip = 21 + 3.15 = 24.15
+
+\#\#\# Answer: 24.15",24.15,TRUE
+40,40,28,Andre wants to buy a backpack. The normal price of the backpack is $40. He notices that a store that sells the backpack is having a 30% off sale. What is the sale price of the backpack? Do not include units ($) in your answer,Please answer this question: Andre wants to buy a backpack. The normal price of the backpack is $40. He notices that a store that sells the backpack is having a 30% off sale. What is the sale price of the backpack? Do not include units ($) in your answer Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the sale price, we first need to calculate the discount amount. We do this by multiplying the normal price by the discount percentage:
+
+$40 \times 0.30 = $12
+
+Now we subtract the discount amount from the normal price to find the sale price:
+
+$40 - $12 = $28
+
+So the sale price of the backpack is $28.
+
+\#\#\#work: To find the sale price, we first need to calculate the discount amount. We do this by multiplying the normal price by the discount percentage: $40 \times 0.30 = $12. Now we subtract the discount amount from the normal price to find the sale price: $40 - $12 = $28. So the sale price of the backpack is $28.
+
+\#\#\# Answer: 28",28,TRUE
+41,41,25,"On the first math exam, 16 students received an A grade. On the second math exam, 12 students received an A grade. What percentage decrease is that? Do not include the percent sign (%) in your answer. ","Please answer this question: On the first math exam, 16 students received an A grade. On the second math exam, 12 students received an A grade. What percentage decrease is that? Do not include the percent sign (%) in your answer.  Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percentage decrease, we first need to determine the difference in the number of A grades between the two exams:
+
+Difference in A grades = A grades on first exam - A grades on second exam
+Difference in A grades = 16 - 12 = 4
+
+Next, we need to find the original number of A grades (before the decrease):
+
+Original number of A grades = A grades on first exam + A grades on second exam
+Original number of A grades = 16 + 12 = 28
+
+Now, we can calculate the percentage decrease:
+
+Percentage decrease = (Difference in A grades / Original number of A grades) * 100
+Percentage decrease = (4 / 28) * 100
+
+Percentage decrease = 0.142857 * 100
+
+Percentage decrease = 14.2857
+
+So, the percentage decrease in A grades between the two exams is approximately 14.29%.",14.29,FALSE
+42,42,-10,Find the value of each variable. a*3 = -30 a = _____,Please answer this question: Find the value of each variable. a*3 = -30 a = _____ Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"\#\#\#work: To find the value of a, we can start by dividing both sides of the equation by 3:
+a*3/3 = -30/3
+a = -10
+\#\#\# Answer: -10",-10,TRUE
+43,43,58,The baby giraffe weighed 132 pounds at birth. He gained weight at a steady rate for the first 7 months until his weight reached 538 pounds. How much did he gain each month? Do not include units (pounds) in your answer.,Please answer this question: The baby giraffe weighed 132 pounds at birth. He gained weight at a steady rate for the first 7 months until his weight reached 538 pounds. How much did he gain each month? Do not include units (pounds) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the weight gained each month, we need to first find the total weight gained in the 7 months. We can do this by subtracting the birth weight from the final weight: 538 - 132 = 406 pounds. Now we can find the weight gained each month by dividing the total weight gained by the number of months: 406 / 7 = 58 pounds per month. 
+
+\#\#\#work: 538 - 132 = 406 pounds total weight gained. Then, 406 / 7 = 58 pounds gained each month.
+
+\#\#\# Answer: 58",58,TRUE
+44,44,"8,953.50","In 2012, James Cameron descended to the bottom of Challenger Deep in the Marianas Trench; the deepest point in the ocean. The vessel he rode in was called DeepSea Challenger. Challenger Deep is 35,814 feet deep at its lowest point. DeepSea Challenger's descent was a change in depth of (-4) feet per second. We can use the equation y=-4x to model this relationship, where y is the depth and xis the time in seconds that have passed. How many seconds does this model suggest it would take for DeepSea Challenger to reach the bottom? Do not include units (seconds) in your answer.","Please answer this question: In 2012, James Cameron descended to the bottom of Challenger Deep in the Marianas Trench; the deepest point in the ocean. The vessel he rode in was called DeepSea Challenger. Challenger Deep is 35,814 feet deep at its lowest point. DeepSea Challenger's descent was a change in depth of (-4) feet per second. We can use the equation y=-4x to model this relationship, where y is the depth and xis the time in seconds that have passed. How many seconds does this model suggest it would take for DeepSea Challenger to reach the bottom? Do not include units (seconds) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the time it takes for DeepSea Challenger to reach the bottom, we can use the equation y = -4x, where y is the depth (35,814 feet) and x is the time in seconds.
+
+We want to find x, so we'll solve for x:
+
+35,814 = -4x
+
+To isolate x, we'll divide both sides by -4:
+
+x = 35,814 / -4
+
+x = -8,953.5
+
+Since time cannot be negative, we'll take the absolute value of x:
+
+x = 8,953.5
+
+So it would take approximately 8,953.5 seconds for DeepSea Challenger to reach the bottom of Challenger Deep.
+
+\#\#\#work: 35,814 = -4x, x = 35,814 / -4, x = -8,953.5, |x| = 8,953.5
+
+\#\#\# Answer: 8953.5",8953.5,TRUE
+45,45,5.5,"Starting at noon, the temperature dropped steadily at a rate of 0.8 degrees Celsius every hour. How many hours did it take for the temperature to decrease by 4.4 degrees Celsius? Do not include units (hours) in your answer.","Please answer this question: Starting at noon, the temperature dropped steadily at a rate of 0.8 degrees Celsius every hour. How many hours did it take for the temperature to decrease by 4.4 degrees Celsius? Do not include units (hours) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we can set up an equation using the formula for a linear function:
+
+y = mx + b
+
+where y represents the temperature decrease, m represents the rate of decrease (0.8 degrees Celsius per hour), x represents the number of hours, and b represents the starting temperature (noon, which we can assume as 0 since we are only interested in the change).
+
+We are given that the temperature decreased by 4.4 degrees Celsius, so we can plug in the values:
+
+4.4 = 0.8x
+
+Now, we can solve for x (the number of hours) by dividing both sides of the equation by 0.8:
+
+x = 4.4 / 0.8
+x = 5.5
+
+So, it took 5.5 hours for the temperature to decrease by 4.4 degrees Celsius.
+
+\#\#\#work: y = mx + b, with y = 4.4, m = 0.8, and x = hours
+
+4.4 = 0.8x
+
+x = 4.4 / 0.8
+x = 5.5
+
+\#\#\# Answer: 5.5",5.5,TRUE
+46,46,16,A backpack normally costs $25 but it is on sale for $21. What percentage is the discount? Do not include the percent sign (%) in your answer.,Please answer this question: A backpack normally costs $25 but it is on sale for $21. What percentage is the discount? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the discount percentage, we first need to determine the amount of the discount. We do this by subtracting the sale price from the original price: 
+
+$25 - $21 = $4
+
+Next, we need to find what percentage $4 is of the original price of $25. We do this by dividing the discount amount by the original price and then multiplying by 100:
+
+($4 / $25) * 100 = 0.16 * 100 = 16
+
+So the discount percentage is 16. 
+
+\#\#\#work: ($4 / $25) * 100 = 0.16 * 100 = 16
+
+\#\#\# Answer: 16",16,TRUE
+47,47,7,"One year ago, Clare was 4 feet 6 inches tall. Now Clare is 4 feet 10 inches tall. By what percentage did Clare's height increase in the last year? Round your answer to the nearest whole number. Do not include the percent sign (%) in your answer. ","Please answer this question: One year ago, Clare was 4 feet 6 inches tall. Now Clare is 4 feet 10 inches tall. By what percentage did Clare's height increase in the last year? Round your answer to the nearest whole number. Do not include the percent sign (%) in your answer.  Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percentage increase, we first need to determine the difference in height and then divide it by the original height. Finally, we multiply the result by 100 to convert it to a percentage.
+
+\#\#\#work: Clare's original height = 4 feet 6 inches = 54 inches
+Clare's current height = 4 feet 10 inches = 58 inches
+Difference in height = 58 inches - 54 inches = 4 inches
+Percentage increase = (4 inches / 54 inches) * 100 = 0.0741 * 100 = 7.41%
+
+\#\#\# Answer: 7",7,TRUE
+48,48,8,Lin's puppy is gaining weight at a rate of 0.125 pounds per day. Describe the weight gain in days per pound. Do not include units (days) in your answer.,Please answer this question: Lin's puppy is gaining weight at a rate of 0.125 pounds per day. Describe the weight gain in days per pound. Do not include units (days) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the weight gain in days per pound, we need to take the reciprocal of the rate of weight gain.
+
+Given: Lin's puppy is gaining weight at a rate of 0.125 pounds per day.
+
+\#\#\#work: 1 / 0.125 = 8
+
+\#\#\# Answer: 8",8,TRUE
+49,49,8.8,The price of a pair of earrings is $22 but Priya buys them on sale for $13.20. By how much was the price discounted? Do not include units ($) in your answer.,Please answer this question: The price of a pair of earrings is $22 but Priya buys them on sale for $13.20. By how much was the price discounted? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the discount, subtract the sale price from the original price: $22 - $13.20 = $8.80. The price was discounted by $8.80.
+
+\#\#\#work: $22 - $13.20 = $8.80
+\#\#\# Answer: 8.80",8.8,TRUE
+50,50,13.52,At a skateboard shop the price tag on a shirt says $12.58. Sales tax is 7.5% of the price. How much will you pay for the shirt? Do not include units ($) in your answer.,Please answer this question: At a skateboard shop the price tag on a shirt says $12.58. Sales tax is 7.5% of the price. How much will you pay for the shirt? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the total cost of the shirt, we need to calculate the sales tax and add it to the original price.
+
+First, let's calculate the sales tax:
+
+Sales tax = (Price) * (Sales tax rate)
+Sales tax = $12.58 * 7.5%
+
+To convert the percentage to a decimal, divide by 100:
+
+Sales tax = $12.58 * 0.075
+Sales tax = $0.945
+
+Now, add the sales tax to the original price to find the total cost:
+
+Total cost = (Price) + (Sales tax)
+Total cost = $12.58 + $0.945
+Total cost = $13.525
+
+So, you will pay $13.525 for the shirt. 
+
+#\#\#work: Sales tax = (Price) * (Sales tax rate) = $12.58 * 7.5% = $12.58 * 0.075 = $0.945. Total cost = (Price) + (Sales tax) = $12.58 + $0.945 = $13.525. \#\#\# Answer: 13.525",13.525,TRUE
+51,51,446,"A passenger on a ship dropped his camera into the ocean. If it is descending at a rate of -4.2 meters per second, how long (in seconds) until it hits the bottom of the ocean, which is at -1875 meters? Round to the nearest second. Do not include units (seconds) in your answer.","Please answer this question: A passenger on a ship dropped his camera into the ocean. If it is descending at a rate of -4.2 meters per second, how long (in seconds) until it hits the bottom of the ocean, which is at -1875 meters? Round to the nearest second. Do not include units (seconds) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how long it takes for the camera to hit the bottom of the ocean, we can use the formula:
+
+time = (final position - initial position) / rate
+
+In this case, the final position is -1875 meters, the initial position is 0 meters (since it was dropped from the ship), and the rate is -4.2 meters per second.
+
+time = (-1875 - 0) / (-4.2)
+
+time = -1875 / -4.2
+
+time ≈ 444.44 seconds
+
+So, it takes approximately 444 seconds for the camera to hit the bottom of the ocean.
+
+\#\#\#work: time = (final position - initial position) / rate
+time = (-1875 - 0) / (-4.2)
+time = -1875 / -4.2
+time ≈ 444.44 seconds
+
+\#\#\# Answer: 444",444,FALSE
+52,52,1,"A triangle has sides of length 7 cm, 4 cm, and 5 cm. How many unique triangles can be drawn that fit that description? Do not include units (unique triangles) using the tools below.","Please answer this question: A triangle has sides of length 7 cm, 4 cm, and 5 cm. How many unique triangles can be drawn that fit that description? Do not include units (unique triangles) using the tools below. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To determine the number of unique triangles that can be drawn with sides of length 7 cm, 4 cm, and 5 cm, we need to consider the triangle inequality theorem. This theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.
+
+Let's check if these side lengths satisfy the triangle inequality theorem:
+
+1. 7 cm + 4 cm > 5 cm (11 > 5, true)
+2. 7 cm + 5 cm > 4 cm (12 > 4, true)
+3. 4 cm + 5 cm > 7 cm (9 > 7, true)
+
+Since all three conditions are true, the side lengths 7 cm, 4 cm, and 5 cm can form a valid triangle.
+
+Now, let's consider the question. We are asked for the number of unique triangles that can be drawn with these side lengths. Since the side lengths are fixed, there is only one unique triangle that can be formed with these dimensions.
+
+So, the answer is:
+
+\#\#\#work: The side lengths 7 cm, 4 cm, and 5 cm satisfy the triangle inequality theorem. Since the side lengths are fixed, there is only one unique triangle that can be formed with these dimensions.
+
+\#\#\# Answer: 1 unique triangle",1,TRUE
+53,53,318,"If you deposit $300 in an account with a 6% interest rate, how much will be in your account after 1 year? Do not include units (dollars) in your answer. ","Please answer this question: If you deposit $300 in an account with a 6% interest rate, how much will be in your account after 1 year? Do not include units (dollars) in your answer.  Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the amount in your account after 1 year, you can use the formula for simple interest:
+
+Interest = Principal × Rate × Time
+
+In this case, the principal is $300, the rate is 6% (or 0.06), and the time is 1 year.
+
+Interest = 300 × 0.06 × 1 = 18
+
+Now, add the interest to the principal to find the total amount in your account after 1 year:
+
+Total amount = Principal + Interest = 300 + 18 = 318
+
+So, after 1 year, there will be $318 in your account.
+
+\#\#\#work: $300 × 0.06 × 1 = $18, $300 + $18 = $318
+
+\#\#\# Answer: 318",318,TRUE
+54,54,60,Two angles are supplementary. One has a measure that is twice as large as the other. Find the two angle measures. What is the measure of the smaller angle? Do not include units (degrees) in your answer.,Please answer this question: Two angles are supplementary. One has a measure that is twice as large as the other. Find the two angle measures. What is the measure of the smaller angle? Do not include units (degrees) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"Let's call the smaller angle x. Then the larger angle is 2x, since it is twice as large as the smaller one. Since the angles are supplementary, their measures add up to 180 degrees:
+
+x + 2x = 180
+
+Combining like terms, we get:
+
+3x = 180
+
+Now, we can solve for x by dividing both sides by 3:
+
+x = 180/3
+
+x = 60
+
+So the smaller angle is 60 degrees. The larger angle is 2x, which is 2*60 = 120 degrees.
+
+\#\#\#work: Let's call the smaller angle x. Then the larger angle is 2x, since it is twice as large as the smaller one. Since the angles are supplementary, their measures add up to 180 degrees: x + 2x = 180. Combining like terms, we get: 3x = 180. Now, we can solve for x by dividing both sides by 3: x = 180/3. So the smaller angle is 60 degrees. The larger angle is 2x, which is 2*60 = 120 degrees. \#\#\# Answer: 60",60,TRUE
+55,55,5,"Priya's cat is pregnant with a litter of 5 kittens. Each kitten has a 30% chance of being chocolate brown. Priya wants to know the probability that at least two of the kittens will be chocolate brown. To simulate this, Priya put 3 white cubes and 7 green cubes in a bag. (This means that the white cubes represent the chances of a brown cat.) For each trial, Priya pulled out and returned a cube 5 times. Priya conducted 12 trials. Here is a table with the results. trial number outcome 1 ggggg 2 gggwg 3 wgwgw 4 gwggg 5 gggwg 6 wwggg 7 gwggg 8 ggwgw 9 wwwgg 10 ggggw 11 wggwg 12 gggwg How many successful trials were there?","Please answer this question: Priya's cat is pregnant with a litter of 5 kittens. Each kitten has a 30% chance of being chocolate brown. Priya wants to know the probability that at least two of the kittens will be chocolate brown. To simulate this, Priya put 3 white cubes and 7 green cubes in a bag. (This means that the white cubes represent the chances of a brown cat.) For each trial, Priya pulled out and returned a cube 5 times. Priya conducted 12 trials. Here is a table with the results. trial number outcome 1 ggggg 2 gggwg 3 wgwgw 4 gwggg 5 gggwg 6 wwggg 7 gwggg 8 ggwgw 9 wwwgg 10 ggggw 11 wggwg 12 gggwg How many successful trials were there? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the number of successful trials, we need to count the number of trials where at least two of the kittens are chocolate brown. In the table, we can see the following successful trials:
+
+1. gggwg (3 chocolate brown kittens)
+2. gwggg (2 chocolate brown kittens)
+3. wwwgg (3 chocolate brown kittens)
+4. ggggw (3 chocolate brown kittens)
+5. wggwg (2 chocolate brown kittens)
+6. gggwg (3 chocolate brown kittens)
+
+There are 6 successful trials. 
+
+\#\#\#work: To find the number of successful trials, we need to count the number of trials where at least two of the kittens are chocolate brown. In the table, we can see the following successful trials:
+
+1. gggwg (3 chocolate brown kittens)
+2. gwggg (2 chocolate brown kittens)
+3. wwwgg (3 chocolate brown kittens)
+4. ggggw (3 chocolate brown kittens)
+5. wggwg (2 chocolate brown kittens)
+6. gggwg (3 chocolate brown kittens)
+
+There are 6 successful trials.
+
+\#\#\# Answer: 6",6,FALSE
+56,56,30,"A factory produces 3 bottles of sparkling water for every 7 bottles of plain water. If those are the only two products they produce, what percentage of their production is sparkling water? Do not include the percent sign (%) in your answer.","Please answer this question: A factory produces 3 bottles of sparkling water for every 7 bottles of plain water. If those are the only two products they produce, what percentage of their production is sparkling water? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percentage of sparkling water production, we first need to determine the ratio of sparkling water to the total production.
+
+The ratio of sparkling water to plain water is 3:7. To find the total parts, we add the two ratios together: 3 + 7 = 10 parts.
+
+Now, we find the percentage of sparkling water production by dividing the number of sparkling water parts (3) by the total parts (10) and multiplying by 100.
+
+\#\#\#work: (3 / 10) * 100 = 30
+
+\#\#\# Answer: 30",30,TRUE
+57,57,30,Angle H is half as large as angle J. Angle J is one fourth as large as angle K. Angle K has a measure of 240 degrees. What is the measure of angle H? Do not include units (&deg;) in your answer.,Please answer this question: Angle H is half as large as angle J. Angle J is one fourth as large as angle K. Angle K has a measure of 240 degrees. What is the measure of angle H? Do not include units (&deg;) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the measure of angle H, we will first find the measure of angle J and then half it to get the measure of angle H.
+
+Given that angle K has a measure of 240 degrees, we know that:
+angle J = (1/4) * angle K
+angle J = (1/4) * 240
+angle J = 60 degrees
+
+Now, since angle H is half as large as angle J, we can find its measure as follows:
+angle H = (1/2) * angle J
+angle H = (1/2) * 60
+angle H = 30 degrees
+
+So the measure of angle H is 30 degrees.
+
+\#\#\#work: angle J = (1/4) * angle K, angle J = (1/4) * 240, angle J = 60 degrees, angle H = (1/2) * angle J, angle H = (1/2) * 60, angle H = 30 degrees
+
+\#\#\# Answer: 30",30,TRUE
+58,58,14.4,"Today, everything at a store is on sale. The store offers a 20% discount. The regular price of a T-shirt is $18. What is the discount price? Do not include units ($) in your answer.","Please answer this question: Today, everything at a store is on sale. The store offers a 20% discount. The regular price of a T-shirt is $18. What is the discount price? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the discount price, first calculate the amount of the discount by multiplying the regular price by the discount percentage: 
+
+$18 * 20% = $18 * 0.20 = $3.60
+
+Next, subtract the discount amount from the regular price:
+
+$18 - $3.60 = $14.40
+
+The discount price of the T-shirt is $14.40.
+
+\#\#\#work: $18 * 20% = $18 * 0.20 = $3.60. $18 - $3.60 = $14.40
+
+\#\#\# Answer: 14.40",14.4,TRUE
+59,59,18.19,"Lin's father is paying for a $20 meal. He has a 15%-off coupon for the meal. After the discount, a 7% sales tax is applied. What does Lin's father pay for the meal? Do not include units ($) in your answer.","Please answer this question: Lin's father is paying for a $20 meal. He has a 15%-off coupon for the meal. After the discount, a 7% sales tax is applied. What does Lin's father pay for the meal? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the final cost of the meal, we need to apply the 15% discount and then the 7% sales tax.
+
+First, let's find the discount amount:
+15% of $20 = 0.15 * $20 = $3
+
+Now, subtract the discount from the original price:
+$20 - $3 = $17
+
+Next, let's find the sales tax amount:
+7% of $17 = 0.07 * $17 = $1.19
+
+Finally, add the sales tax to the discounted price:
+$17 + $1.19 = $18.19
+
+So, Lin's father pays $18.19 for the meal. The answer is:
+
+#\#\#work: 15% of $20 = $3, $20 - $3 = $17, 7% of $17 = $1.19, $17 + $1.19 = $18.19
+#\#\# Answer: 18.19",18.19,TRUE
+60,60,2.7,A bookstore has marked down the price for all the books in a certain series by 15%. How much is the discount on a book that normally costs $18.00? Do not include units ($) in your answer.,Please answer this question: A bookstore has marked down the price for all the books in a certain series by 15%. How much is the discount on a book that normally costs $18.00? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the discount on the book, first calculate the original price of the book after the discount is applied. Since the bookstore has marked down the price by 15%, the price of the book after the discount is applied is 85% of the original price. 
+
+To find 85% of the original price, multiply $18.00 by 0.85:
+
+$18.00 * 0.85 = $15.30
+
+Now, to find the discount on the book, subtract the discounted price from the original price:
+
+$18.00 - $15.30 = $2.70
+
+The discount on the book is $2.70.",2.7,TRUE
+61,61,25,"Andre received and spent money in the following ways last month. For each example, write a positive or negative number to represent the change in money from his perspective. His uncle gave him $25 as a present.","Please answer this question: Andre received and spent money in the following ways last month. For each example, write a positive or negative number to represent the change in money from his perspective. His uncle gave him $25 as a present. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the change in Andre's money, we need to subtract the amount he spent from the amount he received. In this case, Andre received $25 from his uncle.
+
+Since Andre spent the money, the change in his money will be negative.
+
+\#\#\#work: Andre received $25 from his uncle and spent it. So, the change in his money is $25 - $25 = $0. Since he spent the money, the change is negative. \#\#\# Answer: -25",-25,FALSE
+62,62,1148,"A video game developer wants to know how long it takes people to finish playing their new game. They surveyed a random sample of 13 players and asked how long it took them (in minutes). 1,235 952 457 1,486 1,759 1,148 548 1,037 1,864 1,245 976 866 1,431 Based on the sample, what is the median time it will take all players to finish this game? Do not include units (minutes) in your answer.","Please answer this question: A video game developer wants to know how long it takes people to finish playing their new game. They surveyed a random sample of 13 players and asked how long it took them (in minutes). 1,235 952 457 1,486 1,759 1,148 548 1,037 1,864 1,245 976 866 1,431 Based on the sample, what is the median time it will take all players to finish this game? Do not include units (minutes) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the median time it will take all players to finish the game, we first need to arrange the data in ascending order:
+
+457, 548, 866, 952, 976, 1,037, 1,145, 1,235, 1,431, 1,486, 1,759, 1,864, 1,975
+
+Since there are 13 players in the sample, the median will be the average of the 6th and 7th values:
+
+(1,145 + 1,235) / 2 = 1,380 / 2 = 1,380
+
+So, the median time it will take all players to finish the game is 1,380 minutes.",1380,FALSE
+63,63,6,"Ten students each attempted 10 free throws. This list shows how many free throws each student made. 8, 5, 6, 6, 4, 9, 7, 6, 5, 9 What is the median number of free throws made? Do not include units (free throws) in your answer.","Please answer this question: Ten students each attempted 10 free throws. This list shows how many free throws each student made. 8, 5, 6, 6, 4, 9, 7, 6, 5, 9 What is the median number of free throws made? Do not include units (free throws) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the median, we first need to arrange the numbers in ascending order: 4, 5, 5, 6, 6, 6, 7, 8, 9, 9.
+
+Since there are 10 numbers, the median will be the middle number, which is the 5th number in the ordered list. In this case, the median is 6.
+
+#\#\#work: Arrange the numbers in ascending order (4, 5, 5, 6, 6, 6, 7, 8, 9, 9), and the median is the 5th number, which is 6. \#\#\# Answer: 6",6,TRUE
+64,64,8.975,"A farmer grows 5,000 pumpkins each year. The pumpkins are priced according to their weight, so the farmer would like to estimate the mean weight of the pumpkins he grew this year. He randomly selects 8 pumpkins and weighs them. Here are the weights (in pounds) of these pumpkins: 2.9 6.8 7.3 7.7 8.9 10.6 12.3 15.3 Estimate the mean weight of the pumpkins the farmer grew. Do not include units (pounds) in your answer.","Please answer this question: A farmer grows 5,000 pumpkins each year. The pumpkins are priced according to their weight, so the farmer would like to estimate the mean weight of the pumpkins he grew this year. He randomly selects 8 pumpkins and weighs them. Here are the weights (in pounds) of these pumpkins: 2.9 6.8 7.3 7.7 8.9 10.6 12.3 15.3 Estimate the mean weight of the pumpkins the farmer grew. Do not include units (pounds) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To estimate the mean weight of the pumpkins, we will find the average of the weights of the 8 pumpkins selected by the farmer. 
+
+Here are the weights (in pounds) of the pumpkins: 2.9, 6.8, 7.3, 7.7, 8.9, 10.6, 12.3, 15.3
+
+First, we sum the weights: 2.9 + 6.8 + 7.3 + 7.7 + 8.9 + 10.6 + 12.3 + 15.3 = 71.8
+
+Next, we divide the sum by the number of pumpkins (8) to find the mean:
+
+71.8 / 8 = 8.975
+
+Since we are not including units (pounds) in our answer, we can write:
+
+\#\#\#work: The mean weight of the pumpkins is calculated by summing the weights of the 8 pumpkins (2.9 + 6.8 + 7.3 + 7.7 + 8.9 + 10.6 + 12.3 + 15.3 = 71.8) and then dividing by the number of pumpkins (8), which gives a mean of 8.975 pounds.
+
+\#\#\# Answer: 8.975",8.975,TRUE
+65,65,6.1,"Here are the ages (in years) of a random sample of 10 viewers for 3 different television shows. The shows are titled, ""Science Experiments YOU Can Do,"" ""Learning to Read,"" and ""Trivia the Game Show."" Sample 1 6 6 5 4 8 5 7 8 6 6 Sample 2 15 14 12 13 12 10 12 11 10 8 Sample 3 43 60 50 36 58 50 73 59 69 51 Calculate the mean for sample 1. Do not include units (years) in your answer.","Please answer this question: Here are the ages (in years) of a random sample of 10 viewers for 3 different television shows. The shows are titled, ""Science Experiments YOU Can Do,"" ""Learning to Read,"" and ""Trivia the Game Show."" Sample 1 6 6 5 4 8 5 7 8 6 6 Sample 2 15 14 12 13 12 10 12 11 10 8 Sample 3 43 60 50 36 58 50 73 59 69 51 Calculate the mean for sample 1. Do not include units (years) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the mean for sample 1, we need to add up all the ages and then divide by the number of viewers.
+
+Sample 1: 6 6 5 4 8 5 7 8 6 6
+
+Mean = (6 + 6 + 5 + 4 + 8 + 5 + 7 + 8 + 6 + 6) / 10
+
+Mean = 61 / 10
+
+Mean = 6.1
+
+So the mean age for sample 1 is 6.1 years.
+
+\#\#\#work: To calculate the mean for sample 1, we need to add up all the ages and then divide by the number of viewers. Sample 1: 6 6 5 4 8 5 7 8 6 6 Mean = (6 + 6 + 5 + 4 + 8 + 5 + 7 + 8 + 6 + 6) / 10 Mean = 61 / 10 Mean = 6.1 So the mean age for sample 1 is 6.1 years. \#\#\# Answer: 6.1",6.1,TRUE
+66,66,10,Your teacher will give you a figure with measurements in centimeters. What is the area of your figure? Do not include units in your answer.,Please answer this question: Your teacher will give you a figure with measurements in centimeters. What is the area of your figure? Do not include units in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To calculate the area of a figure with given measurements in centimeters, I would need to know the type of figure and its measurements. Could you please provide the type of figure and its measurements so I can help you calculate the area?",NA,FALSE
+67,67,350,"Your teacher will give you a drawing of the Apollo Lunar Module. It is drawn at a scale of 1 to 50. The ""legs"" of the spacecraft are its landing gear. Measure the legs on the drawing to find the actual length of each leg on the sides. After measuring and solving for the actual length, write your answer to the nearest 10 centimeters. Do not include units (centimeters) in your answer.","Please answer this question: Your teacher will give you a drawing of the Apollo Lunar Module. It is drawn at a scale of 1 to 50. The ""legs"" of the spacecraft are its landing gear. Measure the legs on the drawing to find the actual length of each leg on the sides. After measuring and solving for the actual length, write your answer to the nearest 10 centimeters. Do not include units (centimeters) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","Let's assume the measured length of the legs on the drawing is 5 cm. Since the scale is 1 to 50, this means that 1 cm on the drawing represents 50 cm in reality.
+
+To find the actual length of the legs, we can multiply the measured length on the drawing by the scale:
+
+\#\#\#work: 5 cm * 50 = 250 cm
+
+\#\#\# Answer: 250",250,FALSE
+68,68,150,"Aluminum cans can be recycled instead of being thrown in the garbage. The weight of 10 aluminum cans is 0.16 kilograms. The aluminum in 10 cans that are recycled has a value of $0.14. If a family threw away 2.4 kg of aluminum in a month, how many cans did they throw away? Do not include units (cans) in your answer.","Please answer this question: Aluminum cans can be recycled instead of being thrown in the garbage. The weight of 10 aluminum cans is 0.16 kilograms. The aluminum in 10 cans that are recycled has a value of $0.14. If a family threw away 2.4 kg of aluminum in a month, how many cans did they throw away? Do not include units (cans) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how many cans the family threw away, we'll first find out how many 10-cans groups are in 2.4 kg of aluminum.
+
+\#\#\#work: 
+1. We know that 10 aluminum cans weigh 0.16 kg.
+2. To find out how many 10-cans groups are in 2.4 kg, we'll divide 2.4 kg by 0.16 kg.
+3. 2.4 kg / 0.16 kg = 15 groups of 10 cans.
+
+Now we know that the family threw away 15 groups of 10 cans, which is equal to 150 cans.
+
+\#\#\# Answer: 150",150,TRUE
+69,69,165,"Andre drew a plan of a courtyard at a scale of 1 to 60. On his drawing, one side of the courtyard is 2.75 inches. What is the actual measurement of that side of the courtyard? Express your answer in inches. Do not include units (inches) in your answer.","Please answer this question: Andre drew a plan of a courtyard at a scale of 1 to 60. On his drawing, one side of the courtyard is 2.75 inches. What is the actual measurement of that side of the courtyard? Express your answer in inches. Do not include units (inches) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the actual measurement of the side of the courtyard, we need to multiply the measurement on the drawing by the scale.
+
+Scale = 1 to 60
+Drawing measurement = 2.75 inches
+
+Actual measurement = Drawing measurement × Scale
+Actual measurement = 2.75 inches × 60
+
+Actual measurement = 165 inches
+
+#\#\#work: To find the actual measurement of the side of the courtyard, we need to multiply the measurement on the drawing by the scale. Scale = 1 to 60. Drawing measurement = 2.75 inches. Actual measurement = Drawing measurement × Scale = 2.75 inches × 60 = 165 inches. \#\#\# Answer: 165",165,TRUE
+70,70,5,"When you mix two colors of paint in equivalent ratios, the resulting color is always the same. cups of blue paint cups of yellow paint 2 10 1 How many cups of yellow paint should you mix with 1 cup of blue paint to make the same shade of green? Do not include units (cups) in your answer.","Please answer this question: When you mix two colors of paint in equivalent ratios, the resulting color is always the same. cups of blue paint cups of yellow paint 2 10 1 How many cups of yellow paint should you mix with 1 cup of blue paint to make the same shade of green? Do not include units (cups) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we can set up a proportion using the given information:
+
+2 cups of blue paint / 10 cups of yellow paint = 1 cup of blue paint / x cups of yellow paint
+
+Now we can cross-multiply and solve for x:
+
+(2 cups of blue paint) * (x cups of yellow paint) = (1 cup of blue paint) * (10 cups of yellow paint)
+
+2x = 10
+
+Now divide both sides by 2:
+
+x = 5
+
+So, you should mix 5 cups of yellow paint with 1 cup of blue paint to make the same shade of green.",5,TRUE
+71,71,700,"Based on her recipe, Elena knows that 5 servings of granola have 1,750 calories. If she eats 2 servings of granola, how many calories does she eat? Do not include units (calories) in your answer.","Please answer this question: Based on her recipe, Elena knows that 5 servings of granola have 1,750 calories. If she eats 2 servings of granola, how many calories does she eat? Do not include units (calories) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how many calories Elena eats when she consumes 2 servings of granola, we can set up a proportion. We know that 5 servings have 1,750 calories, so we can write the proportion as:
+
+5 servings / 1,750 calories = 2 servings / x calories
+
+Now, we can solve for x by cross-multiplying:
+
+5 * x = 1,750 * 2
+
+5x = 3,500
+
+Now, divide by 5 to solve for x:
+
+x = 700
+
+So, when Elena eats 2 servings of granola, she consumes 700 calories. 
+
+#\#\#work: 5 servings / 1,750 calories = 2 servings / x calories
+5 * x = 1,750 * 2
+5x = 3,500
+x = 700
+
+#\#\# Answer: 700",700,TRUE
+72,72,0.25,Elena went to a store where you can scoop your own popcorn and buy as much as you want. She bought 10 ounces of spicy popcorn for $2.50. How much does popcorn cost per ounce? Do not include units ($) in your answer.,Please answer this question: Elena went to a store where you can scoop your own popcorn and buy as much as you want. She bought 10 ounces of spicy popcorn for $2.50. How much does popcorn cost per ounce? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the cost per ounce of popcorn, we need to divide the total cost by the total amount of popcorn bought.
+
+Total cost = $2.50
+Total amount of popcorn = 10 ounces
+
+Cost per ounce = Total cost / Total amount of popcorn
+Cost per ounce = $2.50 / 10 ounces
+Cost per ounce = $0.25 per ounce
+
+\#\#\#work: To find the cost per ounce of popcorn, we need to divide the total cost by the total amount of popcorn. Total cost = $2.50, Total amount of popcorn = 10 ounces. Cost per ounce = $2.50 / 10 ounces = $0.25 per ounce.
+
+\#\#\# Answer: $0.25",0.25,TRUE
+73,73,45,"The number of fish in a lake decreased by 25% between last year and this year. Last year there were 60 fish in the lake. What is the population this year? If you get stuck, consider drawing a diagram.","Please answer this question: The number of fish in a lake decreased by 25% between last year and this year. Last year there were 60 fish in the lake. What is the population this year? If you get stuck, consider drawing a diagram. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","Let's solve this problem step by step:
+
+1. We know that the population of fish decreased by 25% from last year to this year.
+2. Last year, there were 60 fish in the lake.
+3. To find the population this year, we can calculate 75% of the population from last year (since it decreased by 25%).
+
+\#\#\#work: 60 * (75/100) = 45
+
+\#\#\# Answer: There are 45 fish in the lake this year.",45,TRUE
+74,74,66.25,"A company claims that their new bottle holds 25% more laundry soap. If their original container held 53 fluid ounces of soap, how much does the new container hold? Do not include units (oz) in your answer.","Please answer this question: A company claims that their new bottle holds 25% more laundry soap. If their original container held 53 fluid ounces of soap, how much does the new container hold? Do not include units (oz) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how much the new container holds, we can use the formula:
+
+New volume = Original volume + (Original volume * Percentage increase)
+
+In this case, the original volume is 53 fluid ounces, and the percentage increase is 25%, or 0.25 in decimal form. So, we can plug these values into the formula:
+
+New volume = 53 + (53 * 0.25)
+New volume = 53 + 13.25
+New volume = 66.25 fluid ounces
+
+So, the new container holds 66.25 fluid ounces of laundry soap. 
+
+#\#\#work: New volume = Original volume + (Original volume * Percentage increase) = 53 + (53 * 0.25) = 53 + 13.25 = 66.25 fluid ounces
+#\#\# Answer: 66.25",66.25,TRUE
+75,75,5.61,"At a dinner, the meal cost $22 and a sales tax of $1.87 was added to the bill. How much would the sales tax be on a $66 meal? Do not include units ($) in your answer.","Please answer this question: At a dinner, the meal cost $22 and a sales tax of $1.87 was added to the bill. How much would the sales tax be on a $66 meal? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the sales tax on a $66 meal, we can set up a proportion using the given information:
+
+\frac{1.87}{22} = \frac{x}{66}
+
+Now, we can cross-multiply and solve for x:
+
+1.87 * 66 = 22 * x
+
+123.42 = 22x
+
+Now, divide by 22 to find x:
+
+x = \frac{123.42}{22}
+
+x ≈ 5.61
+
+So, the sales tax on a $66 meal would be approximately $5.61. 
+
+\#\#\#work: \frac{1.87}{22} = \frac{x}{66}, 1.87 * 66 = 22 * x, 123.42 = 22x, x = \frac{123.42}{22}, x ≈ 5.61
+
+\#\#\# Answer: 5.61",5.61,TRUE
+76,76,4,"To be labeled as a jumbo egg, the egg is supposed to weigh 2.5 oz. Priya buys a carton of jumbo eggs and measures one of the eggs as 2.4 oz. What is the percent error? Do not include the percent sign (%) in your answer.","Please answer this question: To be labeled as a jumbo egg, the egg is supposed to weigh 2.5 oz. Priya buys a carton of jumbo eggs and measures one of the eggs as 2.4 oz. What is the percent error? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the percent error, we can use the formula:
+
+Percent Error = |(Actual Value - Experimental Value) / Actual Value| * 100
+
+In this case, the actual value is 2.5 oz, and the experimental value is 2.4 oz. Plugging these values into the formula, we get:
+
+Percent Error = |(2.5 - 2.4) / 2.5| * 100
+
+Percent Error = |0.1 / 2.5| * 100
+
+Percent Error = 0.04 * 100
+
+Percent Error = 4
+
+So the percent error is 4. \#\#\#work: Percent Error = |(2.5 - 2.4) / 2.5| * 100 = |0.1 / 2.5| * 100 = 0.04 * 100 = 4 \#\#\# Answer: 4",4,TRUE
+77,77,-14.57,"Lin's sister has a checking account. If the account balance ever falls below zero, the bank charges her a fee of $5.95 per day. Today, the balance in Lin's sister's account is -$2.67. If she does not make any deposits or withdrawals, what will be the balance in her account after 2 days? Do not include units ($) in your answer.","Please answer this question: Lin's sister has a checking account. If the account balance ever falls below zero, the bank charges her a fee of $5.95 per day. Today, the balance in Lin's sister's account is -$2.67. If she does not make any deposits or withdrawals, what will be the balance in her account after 2 days? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the balance after 2 days, we need to calculate the fees for each day and subtract them from the initial balance.
+
+Day 1:
+Initial balance: -$2.67
+Fee: $5.95
+Balance after Day 1: -$2.67 + $5.95 = $3.28
+
+Day 2:
+Initial balance: $3.28
+Fee: $5.95
+Balance after Day 2: $3.28 + $5.95 = $9.23
+
+So, the balance in her account after 2 days will be $9.23.
+
+\#\#\#work: Day 1: Initial balance: -$2.67, Fee: $5.95, Balance after Day 1: -$2.67 + $5.95 = $3.28. Day 2: Initial balance: $3.28, Fee: $5.95, Balance after Day 2: $3.28 + $5.95 = $9.23.
+
+\#\#\# Answer: 9.23",9.23,FALSE
+78,78,14,"Diego scored 9 points less than Andre in the basketball game. Noah scored twice as many points as Diego. If Noah scored 10 points, how many points did Andre score?","Please answer this question: Diego scored 9 points less than Andre in the basketball game. Noah scored twice as many points as Diego. If Noah scored 10 points, how many points did Andre score? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","Let's use algebra to solve this problem. Let A represent the number of points Andre scored. Since Diego scored 9 points less than Andre, Diego scored A - 9 points. Noah scored twice as many points as Diego, so Noah scored 2 * (A - 9) points.
+
+We know that Noah scored 10 points, so we can set up the equation:
+
+2 * (A - 9) = 10
+
+Now, let's solve for A:
+
+2A - 18 = 10
+2A = 28
+A = 14
+
+So, Andre scored 14 points. 
+
+#\#\#work: Let A represent the number of points Andre scored. Diego scored A - 9 points, and Noah scored twice as many points as Diego, so Noah scored 2 * (A - 9) points. We know that Noah scored 10 points, so we can set up the equation: 2 * (A - 9) = 10. Solving for A, we get A = 14. \#\#\# Answer: 14",14,TRUE
+79,79,0.7,A chemical engineer is trying to increase the amount of the useful product in a reaction. She performs the reaction with her new equipment 10 times and gets the following amounts of the useful product: 47.1 48.2 48.3 47.5 48.5 48.1 47.2 48.2 48.4 48.3 What proportion of the reactions were above the 48 grams threshold?,Please answer this question: A chemical engineer is trying to increase the amount of the useful product in a reaction. She performs the reaction with her new equipment 10 times and gets the following amounts of the useful product: 47.1 48.2 48.3 47.5 48.5 48.1 47.2 48.2 48.4 48.3 What proportion of the reactions were above the 48 grams threshold? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the proportion of reactions above the 48 grams threshold, we first need to count the number of reactions that meet this criterion.
+
+\#\#\#work: Counting reactions above 48 grams:
+48.1 > 48
+48.2 > 48
+48.3 > 48
+48.4 > 48
+
+There are 4 reactions above the 48 grams threshold.
+
+Now, we can find the proportion of these reactions out of the total number of reactions (10).
+
+\#\#\#work: Proportion calculation:
+Proportion = (Number of reactions above threshold) / (Total number of reactions)
+Proportion = 4 / 10
+Proportion = 0.4
+
+\#\#\# Answer: 0.4",0.4,FALSE
+80,80,"3,900","The circumference of a car wheel is about 65 inches. If the car wheel rotates once per second, how far does the car travel in one minute? Do not include units (inches) in your answer.","Please answer this question: The circumference of a car wheel is about 65 inches. If the car wheel rotates once per second, how far does the car travel in one minute? Do not include units (inches) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","First, let's find out how many rotations the wheel makes in one minute. Since there are 60 seconds in a minute and the wheel rotates once per second, the wheel makes 60 rotations in one minute.
+
+Next, we need to find the distance the car travels in one rotation. Since the circumference of the wheel is 65 inches, the car travels 65 inches in one rotation.
+
+Now, to find the distance the car travels in one minute, we multiply the distance per rotation by the number of rotations in one minute:
+
+65 inches/rotation * 60 rotations/minute = 3900 inches/minute
+
+So, the car travels 3900 inches in one minute.",3900,TRUE
+81,81,616,Elena wants to tile the top of a circular table. The diameter of the table top is 28 inches. What is its area? Do not include units (square inches) in your answer. Round your answer to the nearest whole number.,Please answer this question: Elena wants to tile the top of a circular table. The diameter of the table top is 28 inches. What is its area? Do not include units (square inches) in your answer. Round your answer to the nearest whole number. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the area of a circle, we use the formula A = πr², where A is the area, π is approximately 3.14159, and r is the radius of the circle. The radius is half of the diameter, so in this case, r = 28/2 = 14 inches.
+
+Now we can plug in the values into the formula:
+
+A = π(14)²
+A = π(196)
+A = 615.7528
+
+Rounding to the nearest whole number, we get:
+
+A = 616
+
+So the area of the circular table top is 616 square inches. 
+
+\#\#\#work: To find the area of a circle, we use the formula A = πr², where A is the area, π is approximately 3.14159, and r is the radius of the circle. The radius is half of the diameter, so in this case, r = 28/2 = 14 inches. A = π(14)² = π(196) = 615.7528. Rounding to the nearest whole number, we get A = 616. \#\#\# Answer: 616",616,TRUE
+82,82,91.2,"Tyler swims at a constant speed, 5 meters every 4 seconds. How long does it take him to swim 114 meters? distance (meters) time (seconds) 5 4 114 Do not include units (seconds) in your answer.","Please answer this question: Tyler swims at a constant speed, 5 meters every 4 seconds. How long does it take him to swim 114 meters? distance (meters) time (seconds) 5 4 114 Do not include units (seconds) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find out how long it takes Tyler to swim 114 meters, we can set up a proportion using the given rate of 5 meters every 4 seconds:
+
+5 meters / 4 seconds = 114 meters / x seconds
+
+Now, we can cross-multiply and solve for x:
+
+5 * x = 4 * 114
+5x = 456
+
+Divide both sides by 5:
+
+x = 456 / 5
+x = 91.2
+
+So, it takes Tyler 91.2 seconds to swim 114 meters.
+
+#\#\#work: Set up a proportion using the given rate of 5 meters every 4 seconds, cross-multiply, and solve for x. 
+#\#\# Answer: 91.2",91.2,TRUE
+83,83,198,"Green sea turtles live most of their lives in the ocean, but come ashore to lay their eggs. Some beaches where turtles often come ashore have been made into protected sanctuaries so the eggs will not be disturbed. One sanctuary had 180 green sea turtles come ashore to lay eggs last year. This year, the number of turtles increased by 10%. How many turtles came ashore to lay eggs in the sanctuary this year? Do not include units (turtles) in your answer","Please answer this question: Green sea turtles live most of their lives in the ocean, but come ashore to lay their eggs. Some beaches where turtles often come ashore have been made into protected sanctuaries so the eggs will not be disturbed. One sanctuary had 180 green sea turtles come ashore to lay eggs last year. This year, the number of turtles increased by 10%. How many turtles came ashore to lay eggs in the sanctuary this year? Do not include units (turtles) in your answer Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the number of turtles that came ashore this year, we first need to calculate the 10% increase from last year.
+
+10% of 180 is calculated as follows:
+
+\#\#\#work: 10\% * 180 = 0.10 * 180 = 18
+
+So, there was an increase of 18 turtles.
+
+Now, we add this increase to the number of turtles that came ashore last year:
+
+\#\#\#work: 180 + 18 = 198
+
+Therefore, 198 green sea turtles came ashore to lay eggs in the sanctuary this year.
+
+\#\#\# Answer: 198",198,TRUE
+84,84,106,"Money in a particular savings account increases by about 6% after a year. How much money will be in the account after one year if the initial amount is $100? If you get stuck, consider using diagrams or a table to organize your work. Do not include units ($) in your answer.","Please answer this question: Money in a particular savings account increases by about 6% after a year. How much money will be in the account after one year if the initial amount is $100? If you get stuck, consider using diagrams or a table to organize your work. Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we can use the formula for compound interest:
+
+A = P(1 + r)^t
+
+Where:
+A = the amount of money in the account after t years
+P = the initial amount of money in the account
+r = the interest rate per year (in decimal form)
+t = the number of years
+
+In this case, P = $100, r = 0.06 (6% interest rate), and t = 1 (1 year). Plugging these values into the formula, we get:
+
+A = 100(1 + 0.06)^1
+
+A = 100(1.06)
+
+A = 106
+
+So, after one year, there will be $106 in the account.",106,TRUE
+85,85,850,"The value of a new car decreases by about 15% in the first year. How much will a car be worth after one year if its initial value was $1,000? If you get stuck, consider using diagrams or a table to organize your work. Do not include units ($) in your answer.","Please answer this question: The value of a new car decreases by about 15% in the first year. How much will a car be worth after one year if its initial value was $1,000? If you get stuck, consider using diagrams or a table to organize your work. Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the value of the car after one year, we need to calculate 85% of its initial value, since it decreases by 15%.
+
+\#\#\#work: Initial value = $1,000, Decrease = 15%, Value after one year = 85% of initial value
+\#\#\#work: 85% = 85/100 = 0.85
+\#\#\#work: Value after one year = $1,000 * 0.85 = $850
+\#\#\# Answer: 850",850,TRUE
+86,86,3840,"A car dealership pays a wholesale price of $12,000 to purchase a vehicle. The car dealership wants to make a 32% profit. By how much will they mark up the price of the vehicle? Do not include units ($) in your answer.","Please answer this question: A car dealership pays a wholesale price of $12,000 to purchase a vehicle. The car dealership wants to make a 32% profit. By how much will they mark up the price of the vehicle? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To calculate the markup, we first need to determine the amount of profit the dealership wants to make. We can do this by multiplying the wholesale price by the desired profit percentage:
+
+Profit = Wholesale Price × Desired Profit Percentage
+Profit = $12,000 × 32%
+Profit = $12,000 × 0.32
+Profit = $3,840
+
+Now that we know the desired profit, we can calculate the markup by adding this profit to the wholesale price:
+
+Markup = Wholesale Price + Profit
+Markup = $12,000 + $3,840
+Markup = $15,840
+
+To find the markup percentage, we can divide the markup by the wholesale price and multiply by 100:
+
+Markup Percentage = (Markup / Wholesale Price) × 100
+Markup Percentage = ($15,840 / $12,000) × 100
+Markup Percentage = 1.32 × 100
+Markup Percentage = 132%
+
+So the car dealership will mark up the price of the vehicle by 132%. Here is the work in the specified format:
+
+\#\#\#work: Profit = $12,000 × 0.32 = $3,840
+\#\#\#work: Markup = $12,000 + $3,840 = $15,840
+\#\#\#work: Markup Percentage = ($15,840 / $12,000) × 100 = 1.32 × 100 = 132%
+
+\#\#\# Answer:",132,FALSE
+87,87,16,"For each gym membership sold, the gym keeps $42 and the employee who sold it gets $8. What is the commission the employee earned as a percentage of the total cost of the gym membership? Do not include the percent sign (%) in your answer.","Please answer this question: For each gym membership sold, the gym keeps $42 and the employee who sold it gets $8. What is the commission the employee earned as a percentage of the total cost of the gym membership? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","Let's first find the total cost of the gym membership. We know that the gym keeps $42 and the employee gets $8. So, the total cost is $42 + $8 = $50.
+
+Now, we need to find the commission the employee earned. The employee earns $8 for each membership sold. So, the commission earned is $8.
+
+To find the percentage, we will divide the commission earned by the total cost of the membership and multiply by 100.
+
+\#\#\#work: Commission / Total Cost * 100
+\#\#\#work: $8 / $50 * 100 = 16
+
+\#\#\# Answer: 16",16,TRUE
+88,88,3.8,"A salesperson sold a car for $18,250 and their commission is $693.50. What percentage of the sale price is their commission? Do not include the percent sign (%) in your answer.","Please answer this question: A salesperson sold a car for $18,250 and their commission is $693.50. What percentage of the sale price is their commission? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the percentage of the sale price that the commission represents, we can use the following formula:
+
+\[
+\text{Percentage} = \left( \frac{\text{Commission}}{\text{Sale Price}} \right) \times 100
+\]
+
+First, we'll divide the commission by the sale price:
+
+\[
+\frac{693.50}{18,250} = 0.03799
+\]
+
+Next, we'll multiply by 100 to get the percentage:
+
+\[
+0.03799 \times 100 = 3.799
+\]
+
+Since we are asked to not include the percent sign, the final answer is:
+
+\#\#\#work: The commission is 0.03799 times the sale price, so the percentage is 3.799 times 100, which equals 3.799.
+
+\#\#\# Answer: 3.799",3.799,FALSE
+89,89,18.52,The bill for a meal was $33.75. The customer left $40.00. What percentage of the bill was the tip? Do not include the percent sign (%) in your answer. Round your answer to the nearest hundredth.,Please answer this question: The bill for a meal was $33.75. The customer left $40.00. What percentage of the bill was the tip? Do not include the percent sign (%) in your answer. Round your answer to the nearest hundredth. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the percentage of the bill that was the tip, we first need to determine the amount of the tip. We can do this by subtracting the bill amount from the amount the customer left:
+
+Tip amount = $40.00 - $33.75 = $6.25
+
+Now, to find the percentage, we divide the tip amount by the bill amount and multiply by 100:
+
+Percentage tip = ($6.25 / $33.75) * 100 = 0.1851851851851851851851851851852 * 100 ≈ 18.52
+
+Rounding to the nearest hundredth, the percentage tip is approximately 18.52%. 
+
+\#\#\#work: Tip amount = $40.00 - $33.75 = $6.25. Percentage tip = ($6.25 / $33.75) * 100 = 0.1851851851851851851851851851852 * 100 ≈ 18.52 \#\#\# Answer: 18.52",18.52,TRUE
+90,90,21.33,The original price of a bicycle was $375. Now it is on sale for $295. What percentage of the original price was the markdown? Do not include the percent sign (%) in your answer. Round your answer to the nearest hundredth.,Please answer this question: The original price of a bicycle was $375. Now it is on sale for $295. What percentage of the original price was the markdown? Do not include the percent sign (%) in your answer. Round your answer to the nearest hundredth. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the percentage of the original price that the markdown represents, we can use the following formula:
+
+\[
+\text{Percentage} = \left( \frac{\text{Markdown}}{\text{Original Price}} \right) \times 100
+\]
+
+First, we find the markdown by subtracting the sale price from the original price:
+
+\[
+\text{Markdown} = \text{Original Price} - \text{Sale Price} = 375 - 295 = 80
+\]
+
+Next, we plug the values into the formula:
+
+\[
+\text{Percentage} = \left( \frac{80}{375} \right) \times 100
+\]
+
+\[
+\text{Percentage} = \left( \frac{80}{375} \right) \times 100 \approx 0.2133 \times 100 \approx 21.33
+\]
+
+Rounded to the nearest hundredth, the answer is 21.33. So, the markdown represents 21.33 percent of the original price.
+
+\#\#\#work: To find the percentage of the original price that the markdown represents, we can use the formula: \text{Percentage} = \left( \frac{\text{Markdown}}{\text{Original Price}} \right) \times 100. First, we find the markdown by subtracting the sale price from the original price: \text{Markdown} = \text{Original",21.33,TRUE
+91,91,14,"A soccer field is 120 yards long. Han measures the length of the field using a 30-foot-long tape measure and gets a measurement of 358 feet, 10 inches. What is the amount of the error? Do not include units (inches) in your answer.","Please answer this question: A soccer field is 120 yards long. Han measures the length of the field using a 30-foot-long tape measure and gets a measurement of 358 feet, 10 inches. What is the amount of the error? Do not include units (inches) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","First, we need to convert the soccer field length from yards to feet. Since there are 3 feet in a yard, the length of the soccer field in feet is:
+
+120 yards * 3 feet/yard = 360 feet
+
+Now, we can calculate the error by subtracting the measured length from the actual length:
+
+358 feet, 10 inches - 360 feet = -1.1 feet
+
+The error is 1.1 feet. 
+
+\#\#\#work: To find the error, we first converted the soccer field length from yards to feet. Then, we subtracted the measured length from the actual length to find the error. \#\#\# Answer: 1.1",1.1,FALSE
+92,92,18,"One winter day, the temperature in Houston is 8&deg; Celsius. Find the temperatures in these other cities. Explain or show your reasoning. In Orlando, it is 10&deg; warmer than it is in Houston. Do not include units (degrees) in your answer.","Please answer this question: One winter day, the temperature in Houston is 8&deg; Celsius. Find the temperatures in these other cities. Explain or show your reasoning. In Orlando, it is 10&deg; warmer than it is in Houston. Do not include units (degrees) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the temperature in Orlando, we need to add 10 degrees to the temperature in Houston.
+
+\#\#\#work: 8 + 10 = 18
+
+\#\#\# Answer: 18",18,TRUE
+93,93,-15,Priya wants to buy three tickets for a concert. She has earned $135 and each ticket costs $50. She borrows the rest of the money she needs from a bank and buys the tickets. How can you represent the amount of money that Priya has after buying the tickets? Do not include units ($) in your answer.,Please answer this question: Priya wants to buy three tickets for a concert. She has earned $135 and each ticket costs $50. She borrows the rest of the money she needs from a bank and buys the tickets. How can you represent the amount of money that Priya has after buying the tickets? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To represent the amount of money that Priya has after buying the tickets, we first need to find out how much money she spent on the tickets. Since each ticket costs $50 and she wants to buy three tickets, we can calculate the total cost of the tickets as follows:
+
+\#\#\#work: 3 tickets * $50 per ticket = $150
+
+Next, we need to find out how much money Priya borrowed from the bank. We know that she earned $135 and the total cost of the tickets is $150. So, the amount she borrowed can be calculated as follows:
+
+\#\#\#work: $150 total cost - $135 earned = $15 borrowed
+
+Now, we can represent the amount of money that Priya has after buying the tickets by subtracting the amount she borrowed from the total cost of the tickets:
+
+\#\#\#work: $150 total cost - $15 borrowed = $135
+
+So, Priya has $135 after buying the tickets. The answer is:
+
+\#\#\# Answer: 135",135,FALSE
+94,94,-3.51,Han's family got a solar panel. Each month they get a credit to their account for the electricity that is generated by the solar panel. The credit they receive varies based on how sunny it is. In January they used $83.56 worth of electricity and generated $6.75 worth of electricity. Here is their electricity bill from January. Current charges: $83.56 Solar credit: -6.75 Amount due: $76.81 In July they were traveling away from home and only used $19.24 worth of electricity. Their solar panel generated $22.75 worth of electricity. What was their amount due in July? Do not include units ($) in your answer.,Please answer this question: Han's family got a solar panel. Each month they get a credit to their account for the electricity that is generated by the solar panel. The credit they receive varies based on how sunny it is. In January they used $83.56 worth of electricity and generated $6.75 worth of electricity. Here is their electricity bill from January. Current charges: $83.56 Solar credit: -6.75 Amount due: $76.81 In July they were traveling away from home and only used $19.24 worth of electricity. Their solar panel generated $22.75 worth of electricity. What was their amount due in July? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the amount due in July, we need to subtract the solar credit from the current charges.
+
+Current charges in July: $19.24
+Solar credit in July: -$22.75
+
+Amount due in July: $19.24 - $22.75 = -$3.51
+
+Since the amount due is negative, it means that Han's family has a credit for July, and they will receive money back from their electricity provider.
+
+\#\#\#work: Current charges in July: $19.24, Solar credit in July: -$22.75, Amount due in July: $19.24 - $22.75 = -$3.51
+
+\#\#\# Answer: -$3.51",-3.51,TRUE
+95,95,-37.5,"A water well drilling rig has dug to a height of -60 feet after one full day of continuous use. Assuming the rig drilled at a constant rate, what was the height of the drill after 15 hours? Do not include units (ft) in your answer.","Please answer this question: A water well drilling rig has dug to a height of -60 feet after one full day of continuous use. Assuming the rig drilled at a constant rate, what was the height of the drill after 15 hours? Do not include units (ft) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To solve this problem, we need to find the relationship between the time and the height of the drill. Let's call the height of the drill after 15 hours ""h"" and the rate at which the drill is digging ""r"". We know that after one full day (24 hours), the height of the drill is -60 feet. We can write the following equation:
+
+24 * r = -60
+
+Now, we need to find the rate ""r"". We can do this by dividing both sides of the equation by 24:
+
+r = -60 / 24
+r = -2.5
+
+Now that we know the rate at which the drill is digging, we can find the height of the drill after 15 hours. We can use the following equation:
+
+h = 15 * r
+
+Substitute the value of ""r"" that we found earlier:
+
+h = 15 * (-2.5)
+h = -37.5
+
+So, the height of the drill after 15 hours is -37.5 feet.
+
+\#\#\#work: The work shown above \#\#\# Answer: -37.5",-37.5,TRUE
+96,96,77.94,A utility company charges $0.12 per kilowatt-hour for energy a customer uses. They give a credit of $0.025 for every kilowatt-hour of electricity a customer with a solar panel generates that they don't use themselves. A customer has a charge of $82.04 and a credit of -$4.10 on this month's bill. What is the amount due this month? Do not include units ($) in your answer.,Please answer this question: A utility company charges $0.12 per kilowatt-hour for energy a customer uses. They give a credit of $0.025 for every kilowatt-hour of electricity a customer with a solar panel generates that they don't use themselves. A customer has a charge of $82.04 and a credit of -$4.10 on this month's bill. What is the amount due this month? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"First, let's find out how many kilowatt-hours the customer used. We can do this by adding the charge and the credit, and then dividing by the difference between the charge rate and the credit rate.
+
+\#\#\#work: Let x be the number of kilowatt-hours used. We have the equation:
+
+82.04 + (-4.10) = 0.12x - 0.025x
+
+Simplifying:
+
+78.94 = 0.095x
+
+Now, we can solve for x:
+
+x = 78.94 / 0.095
+x ≈ 831.37 kilowatt-hours
+
+Now, let's find out how many kilowatt-hours the customer generated with their solar panel. We can do this by dividing the credit by the credit rate:
+
+\#\#\#work: Let y be the number of kilowatt-hours generated. We have the equation:
+
+-4.10 = -0.025y
+
+Simplifying:
+
+y = 4.10 / -0.025
+y ≈ -164.00 kilowatt-hours
+
+Since the customer generated more electricity than they used, the amount due this month is the charge for the difference between the electricity used and the electricity generated:
+
+\#\#\#work: Amount due = Charge for used electricity - Charge for generated electricity
+
+Amount due = (0.12 * 831.37) - (0.12 * 164.00)
+",78.94,FALSE
+97,97,13,Solve each equation 100(x - 3) = 1000 x = _____,Please answer this question: Solve each equation 100(x - 3) = 1000 x = _____ Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"#\#\#work: Start by distributing 100 to both terms inside the parentheses: 100x - 300 = 1000. Next, add 300 to both sides to isolate the x term: 100x = 1300. Finally, divide both sides by 100 to solve for x: x = 13. \#\#\# Answer: 13",13,TRUE
+98,98,3.03,"For each equation, try to solve the equation using each method (dividing each side first, or applying the distributive property first). Some equations are easier to solve by one method than the other. When that is the case, stop doing the harder method and write down the reason you stopped. 2000(x - 0.03) = 6000 x = ____","Please answer this question: For each equation, try to solve the equation using each method (dividing each side first, or applying the distributive property first). Some equations are easier to solve by one method than the other. When that is the case, stop doing the harder method and write down the reason you stopped. 2000(x - 0.03) = 6000 x = ____ Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","Let's first try dividing each side first:
+
+2000(x - 0.03) = 6000
+
+Divide both sides by 2000:
+
+x - 0.03 = 3
+
+Now, add 0.03 to both sides:
+
+x = 3 + 0.03
+
+x = 3.03
+
+Now let's try applying the distributive property first:
+
+2000(x - 0.03) = 6000
+
+Apply the distributive property:
+
+2000x - 60 = 6000
+
+Now, add 60 to both sides:
+
+2000x = 6060
+
+Finally, divide both sides by 2000:
+
+x = 3.03
+
+Both methods yield the same result. So, the solution to the equation is:
+
+\#\#\#work: First, we divided each side by 2000, then added 0.03 to solve for x. Alternatively, we could have applied the distributive property, added 60 to both sides, and then divided by 2000. Both methods yield the same result, x = 3.03. 
+
+\#\#\# Answer: 3.03",3.03,TRUE
+99,99,9.25,"A family of 6 is going to the fair. They have a coupon for $1.50 off each ticket. If they pay $46.50 for all their tickets, how much does a ticket cost without the coupon? Do not include units ($) in your answer.","Please answer this question: A family of 6 is going to the fair. They have a coupon for $1.50 off each ticket. If they pay $46.50 for all their tickets, how much does a ticket cost without the coupon? Do not include units ($) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","First, let's find out how much they saved with the coupons. Since they saved $1.50 per ticket and there are 6 tickets, they saved a total of $1.50 * 6 = $9.00 with the coupons. 
+
+Now, let's subtract the amount they saved from the total amount they paid for the tickets: $46.50 - $9.00 = $37.50. 
+
+This $37.50 is the cost of the tickets without the coupon. To find the cost of one ticket, we divide by the number of tickets: $37.50 / 6 = $6.25. 
+
+So, a ticket costs $6.25 without the coupon. 
+
+\#\#\#work: To find the cost of the tickets without the coupon, we first subtract the amount saved with the coupons from the total amount paid. Then, we divide the result by the number of tickets to find the cost per ticket. 
+
+\#\#\# Answer: 6.25",6.25,FALSE
+100,100,14,Find the value of each expression mentally. 2 + 3 * 4,Please answer this question: Find the value of each expression mentally. 2 + 3 * 4 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To find the value of the expression 2 + 3 * 4 mentally, we first need to remember the order of operations, which is PEMDAS (Parentheses, Exponents, Multiplication and Division from left to right, Addition and Subtraction from left to right). 
+
+In this case, there are no parentheses or exponents, so we start with multiplication: 3 * 4 = 12.
+
+Now we have the expression: 2 + 12.
+
+Finally, we add: 2 + 12 = 14.
+
+So, the answer is 14.
+
+\#\#\#work: 2 + 3 * 4 = 2 + (3 * 4) = 2 + 12 = 14
+
+\#\#\# Answer: 14",14,TRUE
+101,101,5,A wood floor is made by laying multiple boards end to end. Each board is measured with a maximum percent error of 5%. What is the maximum percent error for the total length of the floor? Do not include the percent sign (%) in your answer.,Please answer this question: A wood floor is made by laying multiple boards end to end. Each board is measured with a maximum percent error of 5%. What is the maximum percent error for the total length of the floor? Do not include the percent sign (%) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"Let's assume that the total length of the wood floor is L. We don't know the exact number of boards, but we'll call that N. Each board is measured with a maximum percent error of 5%, so the error in measuring each board is at most 0.05L.
+
+To find the maximum percent error for the total length of the floor, we need to find the maximum error in measuring the total length L. Since the boards are laid end to end, the total length is the sum of the lengths of the individual boards. 
+
+The maximum error in measuring the total length would occur if the error in measuring each board is in the same direction. If we add up the maximum error of each board, we get the maximum error for the total length:
+
+Maximum error in total length = N * Maximum error per board = N * 0.05L
+
+Now, we want to find the maximum percent error for the total length. To do this, we divide the maximum error in total length by the actual total length and multiply by 100:
+
+Maximum percent error = (Maximum error in total length / Total length) * 100 = (N * 0.05L) / L * 100 = 5N
+
+Since we don't know the exact number of boards N, we can say that the maximum percent error for the total length of the floor is at most 5 times the number of boards. 
+
+\#\#\#work: Let's assume",5,TRUE
+102,102,5.5,Fill in the blank with a number that makes the expression on the right side of the equal sign equivalent to the expression on the left side. 5x - 2.5 + 6x - 3 = ___ (2x - 1),Please answer this question: Fill in the blank with a number that makes the expression on the right side of the equal sign equivalent to the expression on the left side. 5x - 2.5 + 6x - 3 = ___ (2x - 1) Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"First, let's simplify the expression on the right side of the equal sign:
+
+\#\#\#work: 5x - 2.5 + 6x - 3 = (2x - 1)
+
+Step 1: Combine like terms on the left side.
+5x + 6x = 11x
+-2.5 - 3 = -5.5
+
+So the expression becomes:
+11x - 5.5 = (2x - 1)
+
+Step 2: Rearrange the expression to have the same terms on both sides.
+To do this, we'll add 5.5 to both sides and subtract 2x from both sides.
+
+11x - 5.5 + 5.5 - 2x = (2x - 1) + 5.5 - 2x
+
+This simplifies to:
+9x - 1 = 4.5
+
+Step 3: Solve for x.
+Add 1 to both sides:
+9x = 5.5
+
+Now divide by 9:
+x = 5.5 / 9
+
+So the missing number is 5.5/9.
+
+\#\#\# Answer: 5.5/9",5.5/9,FALSE
+103,103,14,A rectangle that is 2 inches by 3 inches has been scaled by a factor of 7. What are the side lengths of the scaled copy? What is the length of the shorter side? Do not include units (inches) in your answer.,Please answer this question: A rectangle that is 2 inches by 3 inches has been scaled by a factor of 7. What are the side lengths of the scaled copy? What is the length of the shorter side? Do not include units (inches) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To scale a rectangle by a factor of 7, we multiply each side length by 7. 
+
+The original rectangle has side lengths of 2 inches and 3 inches. 
+
+Scaling the shorter side (2 inches) by a factor of 7 gives us \(2 \times 7 = 14\).
+
+Scaling the longer side (3 inches) by a factor of 7 gives us \(3 \times 7 = 21\).
+
+So, the scaled rectangle has side lengths of 14 and 21.
+
+The length of the shorter side is 14.
+
+\#\#\#work: To scale a rectangle by a factor of 7, we multiply each side length by 7. The original rectangle has side lengths of 2 inches and 3 inches. Scaling the shorter side (2 inches) by a factor of 7 gives us \(2 \times 7 = 14\). Scaling the longer side (3 inches) by a factor of 7 gives us \(3 \times 7 = 21\). So, the scaled rectangle has side lengths of 14 and 21. The length of the shorter side is 14. 
+
+\#\#\# Answer: 14",14,TRUE
+104,104,36,Noah enlarged a photograph by a scale factor of 6. The area of the enlarged photo is how many times as large as the area of the original?,Please answer this question: Noah enlarged a photograph by a scale factor of 6. The area of the enlarged photo is how many times as large as the area of the original? Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To solve this problem, we need to find the relationship between the areas of the original and enlarged photographs. Let A be the area of the original photograph and B be the area of the enlarged photograph.
+
+Since the scale factor is 6, the side lengths of the enlarged photograph are 6 times the side lengths of the original photograph. The area of a rectangle is found by multiplying the side lengths, so the area of the enlarged photograph is:
+
+B = (6 * side_length_original) * (6 * side_length_original) = 36 * (side_length_original)^2
+
+Now, we can compare the area of the enlarged photograph to the area of the original photograph:
+
+B / A = (36 * (side_length_original)^2) / (side_length_original)^2
+
+We can cancel out the (side_length_original)^2 terms:
+
+B / A = 36
+
+So the area of the enlarged photograph is 36 times as large as the area of the original photograph.
+
+\#\#\#work: To solve this problem, we need to find the relationship between the areas of the original and enlarged photographs. Let A be the area of the original photograph and B be the area of the enlarged photograph. Since the scale factor is 6, the side lengths of the enlarged photograph are 6 times the side lengths of the original photograph. The area of a rectangle is found by multiplying the side lengths, so the area of the enlarged photograph is: B = (6 * side",36,TRUE
+105,105,12.5,"A scale drawing of a lake has a scale of 1 cm to 80 m. If the actual width of the lake is 1,000 m, what is the width of the lake on the scale drawing? Do not include units (cm) in your answer.","Please answer this question: A scale drawing of a lake has a scale of 1 cm to 80 m. If the actual width of the lake is 1,000 m, what is the width of the lake on the scale drawing? Do not include units (cm) in your answer. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the width of the lake on the scale drawing, we can set up a proportion using the given scale and actual width of the lake.
+
+Let x be the width of the lake on the scale drawing in centimeters.
+
+Scale: 1 cm : 80 m
+Actual width: 1,000 m
+
+We can set up the proportion as follows:
+
+1 cm / 80 m = x cm / 1,000 m
+
+Now, we can cross-multiply and solve for x:
+
+1 * 1,000 = 80 * x
+1,000 = 80x
+
+Now, divide both sides by 80:
+
+x = 1,000 / 80
+x = 12.5
+
+So, the width of the lake on the scale drawing is 12.5 cm.
+
+\#\#\#work: To find the width of the lake on the scale drawing, we can set up a proportion using the given scale and actual width of the lake.
+
+Let x be the width of the lake on the scale drawing in centimeters.
+
+Scale: 1 cm : 80 m
+Actual width: 1,000 m
+
+We can set up the proportion as follows:
+
+1 cm / 80 m = x cm / 1,000 m
+
+Now, we can cross-multiply and solve for x:
+
+1 * 1,000 = 80 * x
+1,000 = 80x
+
+Now, divide both sides by 80",12.5,TRUE
+106,106,-4.8,Add. -9.2 + 4.4,Please answer this question: Add. -9.2 + 4.4 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"\#\#\#work: To add -9.2 and 4.4, we can combine the two numbers by adding their coefficients. The coefficients are the numbers in front of the decimal point. So, -9.2 + 4.4 = (-9 + 4) + (0.2 + 0.4) = -5 + 0.6 = -4.4
+
+\#\#\# Answer: -4.4",4.4,FALSE
+107,107,-93.4,Add. -81.4 + (-12),Please answer this question: Add. -81.4 + (-12) Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"\#\#\#work: To add -81.4 + (-12), we can combine the two numbers by adding their absolute values and then applying the appropriate sign. The absolute values of the numbers are 81.4 and 12. Adding these values, we get 81.4 + 12 = 93.4. Since both numbers are negative, the sum will also be negative. Therefore, the final answer is -93.4.
+
+\#\#\# Answer: -93.4",-93.4,TRUE
+108,108,-8,Solve the equation. x -(-6) = -2,Please answer this question: Solve the equation. x -(-6) = -2 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"#\#\#work: To solve the equation x - (-6) = -2, we'll first simplify the equation by removing the negative sign in front of -6. The equation becomes x + 6 = -2. Next, we'll isolate x by subtracting 6 from both sides of the equation. This gives us x = -2 - 6. Finally, we'll simplify the right side of the equation to find the value of x. This gives us x = -8. So, the solution to the equation is x = -8.
+#\#\# Answer: -8",-8,TRUE
+109,109,2,Solve the equation. -3x + 7 = 1,Please answer this question: Solve the equation. -3x + 7 = 1 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"#\#\#work: To solve the equation -3x + 7 = 1, we will follow these steps:
+1. Subtract 7 from both sides of the equation.
+   -3x + 7 - 7 = 1 - 7
+   -3x = -6
+2. Divide both sides of the equation by -3.
+   (-3x) / (-3) = (-6) / (-3)
+   x = 2
+#\#\# Answer: The solution to the equation -3x + 7 = 1 is x = 2.",2,TRUE
+110,110,-3,Solve the equation. 25x + (-11) = -86,Please answer this question: Solve the equation. 25x + (-11) = -86 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"First, we'll simplify the equation by combining like terms.
+
+\#\#\#work: 25x - 11 = -86
+
+Next, we'll isolate the variable x by adding 11 to both sides of the equation.
+
+\#\#\#work: 25x - 11 + 11 = -86 + 11
+25x = -75
+
+Finally, we'll divide both sides of the equation by 25 to solve for x.
+
+\#\#\#work: 25x / 25 = -75 / 25
+x = -3
+
+\#\#\# Answer: -3",-3,TRUE
+111,111,-7,Solve the equation. -5(x-1) = 40,Please answer this question: Solve the equation. -5(x-1) = 40 Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"Let's solve the equation step by step:
+
+-5(x - 1) = 40
+
+First, distribute the -5:
+
+-5x + 5 = 40
+
+Next, subtract 5 from both sides:
+
+-5x = 35
+
+Now, divide both sides by -5:
+
+x = -7
+
+So the solution to the equation is x = -7.
+
+\#\#\#work: -5(x - 1) = 40, Distribute the -5: -5x + 5 = 40, Subtract 5 from both sides: -5x = 35, Divide both sides by -5: x = -7
+
+\#\#\# Answer: -7",-7,TRUE
+112,112,48,"How many different outcomes are in the sample space? (You do not need to write out the actual options, just provide the number and your reasoning.) A baseball team's cap is selected from 3 different colors, 2 different clasps, and 4 different locations for the team logo. A decision is made to include or not to include reflective piping.","Please answer this question: How many different outcomes are in the sample space? (You do not need to write out the actual options, just provide the number and your reasoning.) A baseball team's cap is selected from 3 different colors, 2 different clasps, and 4 different locations for the team logo. A decision is made to include or not to include reflective piping. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the total number of different outcomes, we can use the counting principle. For each choice of cap color, there are 2 choices of clasps and 4 choices of logo locations, for a total of 2 * 4 = 8 different combinations for each cap color. Since there are 3 cap colors, the total number of different outcomes is 3 * 8 = 24.
+
+#\#\#work: There are 3 cap colors, 2 clasps, and 4 logo locations. For each cap color, there are 2 * 4 = 8 different combinations. So, the total number of different outcomes is 3 * 8 = 24.
+
+#\#\# Answer: 24",24,FALSE
+113,113,64000,"How many different outcomes are in the sample space? (You do not need to write out the actual options, just provide the number and your reasoning.) A locker combination like 7-23-11 uses three numbers, each from 1 to 40. Numbers can be used more than once, like 7-23-7.","Please answer this question: How many different outcomes are in the sample space? (You do not need to write out the actual options, just provide the number and your reasoning.) A locker combination like 7-23-11 uses three numbers, each from 1 to 40. Numbers can be used more than once, like 7-23-7. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>","To find the number of different outcomes in the sample space, we can use the counting principle. Since there are 40 choices for each number in the locker combination, and the numbers can be repeated, we have:
+
+\#\#\#work: 40 choices for the first number * 40 choices for the second number * 40 choices for the third number = 40^3 = 64,000 different outcomes.
+
+\#\#\# Answer: 64,000",64000,TRUE
+114,114,12.8,The scale of a map says that 8 cm represents 5 km. What distance on the map (in centimeters) represents an actual distance of 8 kilometers? Do not include units (cm) in your response.,Please answer this question: The scale of a map says that 8 cm represents 5 km. What distance on the map (in centimeters) represents an actual distance of 8 kilometers? Do not include units (cm) in your response. Show all work. Output your answer like this: \#\#\#work: <work> \#\#\# Answer: <answer>,"To solve this problem, we can set up a proportion:
+
+\[
+\frac{8 \text{ cm on the map}}{5 \text{ km in reality}} = \frac{x \text{ cm on the map}}{8 \text{ km in reality}}
+\]
+
+Now we can cross-multiply and solve for x:
+
+\[
+8 \cdot 8 = 5 \cdot x
+\]
+
+\[
+x = \frac{8 \cdot 8}{5}
+\]
+
+\[
+x = \frac{64}{5}
+\]
+
+\[
+x = 12.8
+\]
+
+So, 8 kilometers on the map would be represented by 12.8 centimeters on the map.",12.8,TRUE
