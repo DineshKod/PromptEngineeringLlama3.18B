@@ -13,3 +13,5 @@ We test in a total of 5 prompting strategies, as follows:
 
 Results: 
 Chain of Thought outperformed all other prompting strategies, which had a statistically significant difference with Zero shot.
+![image](https://github.com/user-attachments/assets/99aca230-50fc-4ac4-9063-9a44fe2bebac)
+
